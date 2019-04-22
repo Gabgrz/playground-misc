@@ -1,0 +1,15 @@
+https://media.giphy.com/media/l3fQjHugtGrGhHs5y/giphy.gif
+
+document.body.addEventListener('click', function () {
+     var myParent = document.getElementById("Banner"); 
+     var myImage = document.createElement("img");
+     myImage.src = 'https://media.giphy.com/media/l3fQjHugtGrGhHs5y/giphy.gif';
+     myParent.appendChild(myImage);
+     myImage.style.marginLeft = "160px";
+}}
+
+
+
+        public static void p(String str){
+            System.out.println(str);
+        }

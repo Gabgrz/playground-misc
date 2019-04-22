@@ -1,0 +1,6 @@
+{
+  "content": "var props2 \u003d app.pages.RelationsPage.properties;\n\nfunction increasePageSize() {\n\nvar datasource \u003d app.datasources.Cases;\ndatasource.query.pageSize \u003d 500;\n  \n}\n\nfunction getCasesLength(){\n\n   \n   var myLength \u003d app.datasources.Cases.items.length;\n   props2.DatasourceLength \u003d myLength;\n\n}\n\n\n/* Not working yet\n\nfunction lengthAcrossPages(){\n\n  var fullDatasource \u003d app.datasources.Cases;\n  app.datasources.CasesLength \u003d fullDatasource;\n  var newDatasource \u003d app.datasources.CasesLength;\n  newDatasource.query.pageSize \u003d 10000;\n  newDatasource.load();\n  var myLength \u003d fullDatasource.items.length;\n  props2.DatasourceLength \u003d myLength;\n\n}\n\n*/",
+  "key": "MFh6SyvZqM7nXCwPdkZjTiYBk1Y57RoY",
+  "name": "DatasourceClientScript",
+  "type": "CLIENT"
+}

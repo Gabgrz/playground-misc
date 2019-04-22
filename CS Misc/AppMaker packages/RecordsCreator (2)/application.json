@@ -1,0 +1,7 @@
+{
+  "executionMode": "USER",
+  "globalCss": ".full-size {\n  width: 100%;\n  height: 100%;\n}\n\n.wrapper {\n  border: 1px solid rgb(204, 204, 204);\n  box-sizing: border-box;\n}",
+  "groups": [],
+  "initialViewKey": "pKJFM8tx2yc2YA8qffO1lYZmTzKZcUkJ",
+  "templateKey": "sqlTemplate.blank"
+}

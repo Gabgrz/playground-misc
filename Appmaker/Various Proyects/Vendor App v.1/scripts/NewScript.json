@@ -1,0 +1,6 @@
+{
+  "content": "function getVendors() {\n  myString \u003d app.pages.Relations.datasource.items.join();\n  return myString;\n}",
+  "key": "35DwxQfqlNctkZyiZ84YrAj0r9dDN2PJ",
+  "name": "NewScript",
+  "type": "CLIENT"
+}

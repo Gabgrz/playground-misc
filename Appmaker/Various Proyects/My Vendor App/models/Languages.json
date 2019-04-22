@@ -1,0 +1,66 @@
+{
+  "dataSources": [{
+    "key": "obofYD4v7q8KkXT9hC3DXQlOzyg4y4Ul_default",
+    "modelKey": "obofYD4v7q8KkXT9hC3DXQlOzyg4y4Ul",
+    "name": "Languages",
+    "pageSize": 100,
+    "type": "QUERY"
+  }],
+  "defaultDataSourceKey": "obofYD4v7q8KkXT9hC3DXQlOzyg4y4Ul_default",
+  "eventPermissions": [
+    {
+      "name": "ON_CREATE",
+      "type": "inherited"
+    },
+    {
+      "name": "ON_LOAD",
+      "type": "inherited"
+    },
+    {
+      "name": "ON_SAVE",
+      "type": "inherited"
+    },
+    {
+      "name": "ON_DELETE",
+      "type": "inherited"
+    }
+  ],
+  "events": [],
+  "fields": [{
+    "allowedFilterOperators": [
+      "contains",
+      "eq",
+      "gt",
+      "gte",
+      "in",
+      "lt",
+      "lte",
+      "ne",
+      "notContains",
+      "notIn",
+      "notStartsWith",
+      "startsWith"
+    ],
+    "columnName": "Language",
+    "key": "E7kzb4wnYhfcFhuN",
+    "minLength": 0,
+    "name": "Language",
+    "required": false,
+    "type": "String"
+  }],
+  "key": "obofYD4v7q8KkXT9hC3DXQlOzyg4y4Ul",
+  "modelPermission": {
+    "name": "model permission",
+    "permissions": [
+      {"type": "nobody"},
+      {
+        "groupKeys": ["Admins"],
+        "type": "groups"
+      }
+    ],
+    "type": "compound"
+  },
+  "name": "Languages",
+  "type": "BRIX",
+  "userIdFieldType": "USER_ID"
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.ClassFileEditorNoSource" name="PApplet.class" partName="PApplet.class" title="PApplet.class" tooltip="processing.core.PApplet">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=UCSDUnfoldingMaps/lib\/core.jar&lt;processing.core(PApplet.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.mylyn.tasks.ui.editors.task" name="Step 8 -  " partName="Step 8 -" title="Step 8 -" tooltip="Step 8 -  ">
+<input factoryID="org.eclipse.mylyn.tasks.ui.elementFactories.task.editor" taskHandle="local-7"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>

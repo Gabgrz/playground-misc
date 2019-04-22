@@ -1,0 +1,6 @@
+{
+  "content": "var props \u003d app.pages.SheetValues.properties;\n\nfunction getSheetValues(){\n  google.script.run.withSuccessHandler(function getValues(values){props.SheetValues \u003d values;}).getSheetValues();\n}\n\n\n\nfunction getFirstValue(){\n\n  google.script.run.withSuccessHandler(function getFirstValue(thisValue){props.FirstValue \u003d thisValue;}).getFirstValue();\n\n}\n\n/*\n\nfunction onSheetEdit(){\n\n  google.script.run.onEdit();\n\n}\n\n*/",
+  "key": "t8H0dAlMLVAYzxvU70Wgtc9xX0cQO0tm",
+  "name": "SheetClientScript",
+  "type": "CLIENT"
+}

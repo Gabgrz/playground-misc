@@ -1,0 +1,2381 @@
+{
+  "class": "Panel",
+  "customPropertyDescriptions": [
+    {
+      "category": "Custom Properties",
+      "deprecated": false,
+      "designTime": false,
+      "experimental": false,
+      "hidden": false,
+      "key": "KLN45OpB",
+      "name": "SendingEmail",
+      "persisted": true,
+      "readonly": false,
+      "type": "Boolean"
+    },
+    {
+      "category": "Custom Properties",
+      "deprecated": false,
+      "designTime": false,
+      "experimental": false,
+      "hidden": false,
+      "key": "cRhWlQkU",
+      "name": "SendingTemplateEmail",
+      "persisted": true,
+      "readonly": false,
+      "type": "Boolean"
+    }
+  ],
+  "customPropertyValues": {
+    "name": "CustomProperties",
+    "properties": [
+      {
+        "name": "KLN45OpB",
+        "value": {
+          "isNull": true,
+          "type": "Boolean"
+        }
+      },
+      {
+        "name": "cRhWlQkU",
+        "value": {
+          "isNull": true,
+          "type": "Boolean"
+        }
+      }
+    ],
+    "type": "PropertyMap[CustomProperties]"
+  },
+  "key": "0_1191032546",
+  "permission": {
+    "name": "canRead",
+    "type": "compoundEveryone"
+  },
+  "propList": [
+    {
+      "k": "styleMap",
+      "v": {
+        "name": "styleMap",
+        "properties": [],
+        "type": "PropertyMap[styleMap]"
+      }
+    },
+    {
+      "k": "width",
+      "v": 1300
+    },
+    {
+      "k": "height",
+      "v": 1400
+    },
+    {
+      "k": "name",
+      "v": "EmailSample"
+    },
+    {
+      "k": "variant",
+      "v": "Background"
+    },
+    {
+      "k": "top",
+      "v": 4
+    },
+    {
+      "k": "left",
+      "v": 4
+    },
+    {
+      "k": "children",
+      "v": {
+        "list": [
+          {
+            "class": "Panel",
+            "key": "0_1175241103",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [
+                    {
+                      "name": "padding-left",
+                      "value": "16px"
+                    },
+                    {
+                      "name": "padding-right",
+                      "value": "16px"
+                    }
+                  ],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 400
+              },
+              {
+                "k": "height",
+                "v": 64
+              },
+              {
+                "k": "layout",
+                "v": "horizontal"
+              },
+              {
+                "k": "name",
+                "v": "HeaderPanel"
+              },
+              {
+                "k": "left",
+                "v": 0
+              },
+              {
+                "k": "top",
+                "v": 0
+              },
+              {
+                "k": "right",
+                "v": 0
+              },
+              {
+                "k": "bottom",
+                "v": 64
+              },
+              {
+                "k": "autoWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_right",
+                "v": true
+              },
+              {
+                "k": "constrain_width",
+                "v": false
+              },
+              {
+                "k": "constrain_bottom",
+                "v": false
+              },
+              {
+                "k": "constrain_height",
+                "v": true
+              },
+              {
+                "k": "variant",
+                "v": "Primary"
+              },
+              {
+                "k": "justify",
+                "v": "spaceBetween"
+              },
+              {
+                "k": "alignChildren",
+                "v": "center"
+              },
+              {
+                "k": "children",
+                "v": {
+                  "list": [
+                    {
+                      "class": "SimpleLabel",
+                      "key": "0_2143442898",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 100
+                        },
+                        {
+                          "k": "height",
+                          "v": 20
+                        },
+                        {
+                          "k": "name",
+                          "v": "AppTitleLabel"
+                        },
+                        {
+                          "k": "left",
+                          "v": 0
+                        },
+                        {
+                          "k": "top",
+                          "v": 0
+                        },
+                        {
+                          "k": "autoWidth",
+                          "v": true
+                        },
+                        {
+                          "k": "autoHeight",
+                          "v": true
+                        },
+                        {
+                          "k": "variant",
+                          "v": "Title"
+                        },
+                        {
+                          "k": "text",
+                          "v": "Email Sample"
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    },
+                    {
+                      "class": "SimpleLabel",
+                      "key": "0_524902825",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 100
+                        },
+                        {
+                          "k": "height",
+                          "v": 20
+                        },
+                        {
+                          "k": "name",
+                          "v": "UserEmailLabel"
+                        },
+                        {
+                          "k": "left",
+                          "v": 0
+                        },
+                        {
+                          "k": "top",
+                          "v": 0
+                        },
+                        {
+                          "k": "autoWidth",
+                          "v": true
+                        },
+                        {
+                          "k": "autoHeight",
+                          "v": true
+                        },
+                        {
+                          "k": "bindings",
+                          "v": {
+                            "list": [{
+                              "sourceExpression": "text",
+                              "targetExpression": "@user.email",
+                              "targetLiteralExpression": "@user.email",
+                              "type": "BindingInfo"
+                            }],
+                            "type": "List[BindingInfo]"
+                          }
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    }
+                  ],
+                  "type": "List[ComponentInfo]"
+                }
+              }
+            ],
+            "type": "ComponentInfo"
+          },
+          {
+            "class": "Panel",
+            "key": "3_1125042070",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [
+                    {
+                      "name": "padding-top",
+                      "value": "24px"
+                    },
+                    {
+                      "name": "padding-bottom",
+                      "value": "24px"
+                    },
+                    {
+                      "name": "padding-left",
+                      "value": "24px"
+                    },
+                    {
+                      "name": "padding-right",
+                      "value": "24px"
+                    }
+                  ],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 1200
+              },
+              {
+                "k": "height",
+                "v": 896
+              },
+              {
+                "k": "layout",
+                "v": "vertical"
+              },
+              {
+                "k": "name",
+                "v": "Container"
+              },
+              {
+                "k": "left",
+                "v": 0
+              },
+              {
+                "k": "top",
+                "v": 64
+              },
+              {
+                "k": "right",
+                "v": 0
+              },
+              {
+                "k": "bottom",
+                "v": 0
+              },
+              {
+                "k": "autoWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_right",
+                "v": true
+              },
+              {
+                "k": "constrain_width",
+                "v": false
+              },
+              {
+                "k": "autoHeight",
+                "v": false
+              },
+              {
+                "k": "constrain_bottom",
+                "v": true
+              },
+              {
+                "k": "constrain_height",
+                "v": false
+              },
+              {
+                "k": "variant",
+                "v": "Transparent"
+              },
+              {
+                "k": "constrain_left",
+                "v": true
+              },
+              {
+                "k": "constrain_minWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_maxWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_top",
+                "v": true
+              },
+              {
+                "k": "constrain_minHeight",
+                "v": false
+              },
+              {
+                "k": "constrain_maxHeight",
+                "v": false
+              },
+              {
+                "k": "children",
+                "v": {
+                  "list": [
+                    {
+                      "class": "Panel",
+                      "key": "0_1297445686",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [{
+                              "name": "margin-bottom",
+                              "value": "24px"
+                            }],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 400
+                        },
+                        {
+                          "k": "height",
+                          "v": 200
+                        },
+                        {
+                          "k": "layout",
+                          "v": "horizontal"
+                        },
+                        {
+                          "k": "name",
+                          "v": "RemainingQuotaPanel"
+                        },
+                        {
+                          "k": "left",
+                          "v": 0
+                        },
+                        {
+                          "k": "top",
+                          "v": 0
+                        },
+                        {
+                          "k": "autoWidth",
+                          "v": true
+                        },
+                        {
+                          "k": "align",
+                          "v": "stretch"
+                        },
+                        {
+                          "k": "autoHeight",
+                          "v": true
+                        },
+                        {
+                          "k": "children",
+                          "v": {
+                            "list": [
+                              {
+                                "class": "SimpleLabel",
+                                "key": "0_1678001257",
+                                "propList": [
+                                  {
+                                    "k": "styleMap",
+                                    "v": {
+                                      "name": "styleMap",
+                                      "properties": [{
+                                        "name": "margin-right",
+                                        "value": "8px"
+                                      }],
+                                      "type": "PropertyMap[styleMap]"
+                                    }
+                                  },
+                                  {
+                                    "k": "width",
+                                    "v": 100
+                                  },
+                                  {
+                                    "k": "height",
+                                    "v": 20
+                                  },
+                                  {
+                                    "k": "name",
+                                    "v": "RemainingQuotaCaptionLabel"
+                                  },
+                                  {
+                                    "k": "top",
+                                    "v": 0
+                                  },
+                                  {
+                                    "k": "autoWidth",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "autoHeight",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "variant",
+                                    "v": "BodyLight"
+                                  },
+                                  {
+                                    "k": "text",
+                                    "v": "Remaining daily quota:"
+                                  }
+                                ],
+                                "type": "ComponentInfo"
+                              },
+                              {
+                                "class": "SimpleLabel",
+                                "key": "0_2137876366",
+                                "propList": [
+                                  {
+                                    "k": "styleMap",
+                                    "v": {
+                                      "name": "styleMap",
+                                      "properties": [{
+                                        "name": "margin-right",
+                                        "value": "8px"
+                                      }],
+                                      "type": "PropertyMap[styleMap]"
+                                    }
+                                  },
+                                  {
+                                    "k": "width",
+                                    "v": 100
+                                  },
+                                  {
+                                    "k": "height",
+                                    "v": 20
+                                  },
+                                  {
+                                    "k": "name",
+                                    "v": "RemainingQuotaValueLabel"
+                                  },
+                                  {
+                                    "k": "left",
+                                    "v": 0
+                                  },
+                                  {
+                                    "k": "top",
+                                    "v": 0
+                                  },
+                                  {
+                                    "k": "autoWidth",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "autoHeight",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "variant",
+                                    "v": "Menu"
+                                  },
+                                  {
+                                    "k": "bindings",
+                                    "v": {
+                                      "list": [{
+                                        "sourceExpression": "text",
+                                        "targetExpression": "@datasource.item.KnQcE0KVbdwUExmu",
+                                        "targetLiteralExpression": "@datasource.item.RemainingQuota",
+                                        "type": "BindingInfo"
+                                      }],
+                                      "type": "List[BindingInfo]"
+                                    }
+                                  }
+                                ],
+                                "type": "ComponentInfo"
+                              },
+                              {
+                                "class": "LoadingIndicator",
+                                "key": "0_1156659514",
+                                "propList": [
+                                  {
+                                    "k": "styleMap",
+                                    "v": {
+                                      "name": "styleMap",
+                                      "properties": [],
+                                      "type": "PropertyMap[styleMap]"
+                                    }
+                                  },
+                                  {
+                                    "k": "bindings",
+                                    "v": {
+                                      "list": [{
+                                        "sourceExpression": "visible",
+                                        "targetExpression": "@datasource.loading",
+                                        "targetLiteralExpression": "@datasource.loading",
+                                        "type": "BindingInfo"
+                                      }],
+                                      "type": "List[BindingInfo]"
+                                    }
+                                  },
+                                  {
+                                    "k": "width",
+                                    "v": 22
+                                  },
+                                  {
+                                    "k": "height",
+                                    "v": 22
+                                  },
+                                  {
+                                    "k": "name",
+                                    "v": "RemainingQuotaSpinner"
+                                  },
+                                  {
+                                    "k": "left",
+                                    "v": 0
+                                  },
+                                  {
+                                    "k": "top",
+                                    "v": 0
+                                  },
+                                  {
+                                    "k": "autoHeight",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "invisibilityType",
+                                    "v": "hidden"
+                                  }
+                                ],
+                                "type": "ComponentInfo"
+                              }
+                            ],
+                            "type": "List[ComponentInfo]"
+                          }
+                        },
+                        {
+                          "k": "variant",
+                          "v": "Transparent"
+                        },
+                        {
+                          "k": "alignChildren",
+                          "v": "center"
+                        },
+                        {
+                          "k": "bindings",
+                          "v": {
+                            "list": [{
+                              "sourceExpression": "_dataSource",
+                              "targetExpression": "@datasources.LXfBE8E57oBdDWxKIBV38CnPZ4eEOb1b_default",
+                              "targetLiteralExpression": "@datasources.RemainingDailyQuota",
+                              "type": "BindingInfo"
+                            }],
+                            "type": "List[BindingInfo]"
+                          }
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    },
+                    {
+                      "class": "Panel",
+                      "key": "0_889298248",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [
+                              {
+                                "name": "padding-top",
+                                "value": "4px"
+                              },
+                              {
+                                "name": "padding-bottom",
+                                "value": "4px"
+                              },
+                              {
+                                "name": "padding-left",
+                                "value": "4px"
+                              },
+                              {
+                                "name": "padding-right",
+                                "value": "4px"
+                              }
+                            ],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 400
+                        },
+                        {
+                          "k": "height",
+                          "v": 200
+                        },
+                        {
+                          "k": "layout",
+                          "v": "horizontal"
+                        },
+                        {
+                          "k": "name",
+                          "v": "ContentPanel"
+                        },
+                        {
+                          "k": "left",
+                          "v": 0
+                        },
+                        {
+                          "k": "top",
+                          "v": 0
+                        },
+                        {
+                          "k": "autoWidth",
+                          "v": true
+                        },
+                        {
+                          "k": "align",
+                          "v": "stretch"
+                        },
+                        {
+                          "k": "autoHeight",
+                          "v": true
+                        },
+                        {
+                          "k": "children",
+                          "v": {
+                            "list": [
+                              {
+                                "class": "Panel",
+                                "key": "0_1827070001",
+                                "propList": [
+                                  {
+                                    "k": "styleMap",
+                                    "v": {
+                                      "name": "styleMap",
+                                      "properties": [
+                                        {
+                                          "name": "margin-right",
+                                          "value": "24px"
+                                        },
+                                        {
+                                          "name": "margin-bottom",
+                                          "value": "24px"
+                                        }
+                                      ],
+                                      "type": "PropertyMap[styleMap]"
+                                    }
+                                  },
+                                  {
+                                    "k": "width",
+                                    "v": 570
+                                  },
+                                  {
+                                    "k": "height",
+                                    "v": 396
+                                  },
+                                  {
+                                    "k": "name",
+                                    "v": "SendEmailFormPanel"
+                                  },
+                                  {
+                                    "k": "left",
+                                    "v": 0
+                                  },
+                                  {
+                                    "k": "top",
+                                    "v": 0
+                                  },
+                                  {
+                                    "k": "variant",
+                                    "v": "Paper"
+                                  },
+                                  {
+                                    "k": "right",
+                                    "v": 0
+                                  },
+                                  {
+                                    "k": "bottom",
+                                    "v": 0
+                                  },
+                                  {
+                                    "k": "layout",
+                                    "v": "vertical"
+                                  },
+                                  {
+                                    "k": "children",
+                                    "v": {
+                                      "list": [
+                                        {
+                                          "class": "TextField",
+                                          "key": "0_2104096960",
+                                          "propList": [
+                                            {
+                                              "k": "styleMap",
+                                              "v": {
+                                                "name": "styleMap",
+                                                "properties": [
+                                                  {
+                                                    "name": "margin-top",
+                                                    "value": "16px"
+                                                  },
+                                                  {
+                                                    "name": "margin-left",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-right",
+                                                    "value": "24px"
+                                                  }
+                                                ],
+                                                "type": "PropertyMap[styleMap]"
+                                              }
+                                            },
+                                            {
+                                              "k": "width",
+                                              "v": 100
+                                            },
+                                            {
+                                              "k": "height",
+                                              "v": 32
+                                            },
+                                            {
+                                              "k": "name",
+                                              "v": "ToTextBox"
+                                            },
+                                            {
+                                              "k": "top",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "autoHeight",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "autoWidth",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "align",
+                                              "v": "stretch"
+                                            },
+                                            {
+                                              "k": "label",
+                                              "v": "To"
+                                            },
+                                            {
+                                              "k": "required",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "bindings",
+                                              "v": {
+                                                "list": [{
+                                                  "sourceExpression": "value",
+                                                  "targetExpression": "@user.email",
+                                                  "targetLiteralExpression": "@user.email",
+                                                  "type": "BindingInfo"
+                                                }],
+                                                "type": "List[BindingInfo]"
+                                              }
+                                            }
+                                          ],
+                                          "type": "ComponentInfo"
+                                        },
+                                        {
+                                          "class": "TextField",
+                                          "key": "44_1960716060",
+                                          "propList": [
+                                            {
+                                              "k": "styleMap",
+                                              "v": {
+                                                "name": "styleMap",
+                                                "properties": [
+                                                  {
+                                                    "name": "margin-top",
+                                                    "value": "16px"
+                                                  },
+                                                  {
+                                                    "name": "margin-left",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-right",
+                                                    "value": "24px"
+                                                  }
+                                                ],
+                                                "type": "PropertyMap[styleMap]"
+                                              }
+                                            },
+                                            {
+                                              "k": "width",
+                                              "v": 522
+                                            },
+                                            {
+                                              "k": "height",
+                                              "v": 45
+                                            },
+                                            {
+                                              "k": "name",
+                                              "v": "CcTextBox"
+                                            },
+                                            {
+                                              "k": "top",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "autoHeight",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "autoWidth",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "align",
+                                              "v": "stretch"
+                                            },
+                                            {
+                                              "k": "label",
+                                              "v": "cc"
+                                            },
+                                            {
+                                              "k": "required",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "bindings",
+                                              "v": {
+                                                "list": [{
+                                                  "sourceExpression": "value",
+                                                  "targetExpression": "@user.email",
+                                                  "targetLiteralExpression": "@user.email",
+                                                  "type": "BindingInfo"
+                                                }],
+                                                "type": "List[BindingInfo]"
+                                              }
+                                            },
+                                            {
+                                              "k": "constrain_left",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "constrain_right",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_width",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "constrain_minWidth",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_maxWidth",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_top",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "constrain_bottom",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_height",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "constrain_minHeight",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_maxHeight",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "left",
+                                              "v": 0
+                                            }
+                                          ],
+                                          "type": "ComponentInfo"
+                                        },
+                                        {
+                                          "class": "SimpleLabel",
+                                          "key": "0_1497353747",
+                                          "propList": [
+                                            {
+                                              "k": "styleMap",
+                                              "v": {
+                                                "name": "styleMap",
+                                                "properties": [
+                                                  {
+                                                    "name": "margin-top",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-left",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-right",
+                                                    "value": "24px"
+                                                  }
+                                                ],
+                                                "type": "PropertyMap[styleMap]"
+                                              }
+                                            },
+                                            {
+                                              "k": "width",
+                                              "v": 100
+                                            },
+                                            {
+                                              "k": "height",
+                                              "v": 20
+                                            },
+                                            {
+                                              "k": "name",
+                                              "v": "SendEmailHeaderLabel"
+                                            },
+                                            {
+                                              "k": "left",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "top",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "autoWidth",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "autoHeight",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "variant",
+                                              "v": "Headline"
+                                            },
+                                            {
+                                              "k": "text",
+                                              "v": "Send email"
+                                            }
+                                          ],
+                                          "type": "ComponentInfo"
+                                        },
+                                        {
+                                          "class": "TextField",
+                                          "key": "0_1421770118",
+                                          "propList": [
+                                            {
+                                              "k": "styleMap",
+                                              "v": {
+                                                "name": "styleMap",
+                                                "properties": [
+                                                  {
+                                                    "name": "margin-top",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-left",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-right",
+                                                    "value": "24px"
+                                                  }
+                                                ],
+                                                "type": "PropertyMap[styleMap]"
+                                              }
+                                            },
+                                            {
+                                              "k": "width",
+                                              "v": 381
+                                            },
+                                            {
+                                              "k": "height",
+                                              "v": 45
+                                            },
+                                            {
+                                              "k": "name",
+                                              "v": "SubjectTextBox"
+                                            },
+                                            {
+                                              "k": "top",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "autoHeight",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "autoWidth",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "align",
+                                              "v": "stretch"
+                                            },
+                                            {
+                                              "k": "label",
+                                              "v": "Subject"
+                                            },
+                                            {
+                                              "k": "constrain_left",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "constrain_right",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_width",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "constrain_minWidth",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_maxWidth",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_top",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "constrain_bottom",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_height",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "constrain_minHeight",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_maxHeight",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "left",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "required",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "value",
+                                              "v": "Test email message"
+                                            }
+                                          ],
+                                          "type": "ComponentInfo"
+                                        },
+                                        {
+                                          "class": "RichTextEditor",
+                                          "key": "0_1548299010",
+                                          "propList": [
+                                            {
+                                              "k": "styleMap",
+                                              "v": {
+                                                "name": "styleMap",
+                                                "properties": [
+                                                  {
+                                                    "name": "margin-top",
+                                                    "value": "36px"
+                                                  },
+                                                  {
+                                                    "name": "margin-left",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-right",
+                                                    "value": "24px"
+                                                  }
+                                                ],
+                                                "type": "PropertyMap[styleMap]"
+                                              }
+                                            },
+                                            {
+                                              "k": "width",
+                                              "v": 468
+                                            },
+                                            {
+                                              "k": "height",
+                                              "v": 300
+                                            },
+                                            {
+                                              "k": "name",
+                                              "v": "BodyTextEditor"
+                                            },
+                                            {
+                                              "k": "top",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "autoWidth",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "align",
+                                              "v": "stretch"
+                                            },
+                                            {
+                                              "k": "autoHeight",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "grow",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "label",
+                                              "v": "Body"
+                                            },
+                                            {
+                                              "k": "value",
+                                              "v": "Test email body"
+                                            }
+                                          ],
+                                          "type": "ComponentInfo"
+                                        },
+                                        {
+                                          "class": "Panel",
+                                          "key": "0_993823392",
+                                          "propList": [
+                                            {
+                                              "k": "styleMap",
+                                              "v": {
+                                                "name": "styleMap",
+                                                "properties": [
+                                                  {
+                                                    "name": "margin-top",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "padding-top",
+                                                    "value": "8px"
+                                                  },
+                                                  {
+                                                    "name": "padding-bottom",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "padding-left",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "padding-right",
+                                                    "value": "24px"
+                                                  }
+                                                ],
+                                                "type": "PropertyMap[styleMap]"
+                                              }
+                                            },
+                                            {
+                                              "k": "width",
+                                              "v": 400
+                                            },
+                                            {
+                                              "k": "height",
+                                              "v": 200
+                                            },
+                                            {
+                                              "k": "layout",
+                                              "v": "horizontal"
+                                            },
+                                            {
+                                              "k": "name",
+                                              "v": "ButtonsPanel"
+                                            },
+                                            {
+                                              "k": "left",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "top",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "autoWidth",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "align",
+                                              "v": "stretch"
+                                            },
+                                            {
+                                              "k": "autoHeight",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "children",
+                                              "v": {
+                                                "list": [
+                                                  {
+                                                    "class": "LoadingIndicator",
+                                                    "key": "0_952983303",
+                                                    "propList": [
+                                                      {
+                                                        "k": "styleMap",
+                                                        "v": {
+                                                          "name": "styleMap",
+                                                          "properties": [],
+                                                          "type": "PropertyMap[styleMap]"
+                                                        }
+                                                      },
+                                                      {
+                                                        "k": "bindings",
+                                                        "v": {
+                                                          "list": [{
+                                                            "sourceExpression": "visible",
+                                                            "targetExpression": "@properties.KLN45OpB",
+                                                            "targetLiteralExpression": "@properties.SendingEmail",
+                                                            "type": "BindingInfo"
+                                                          }],
+                                                          "type": "List[BindingInfo]"
+                                                        }
+                                                      },
+                                                      {
+                                                        "k": "width",
+                                                        "v": 22
+                                                      },
+                                                      {
+                                                        "k": "height",
+                                                        "v": 22
+                                                      },
+                                                      {
+                                                        "k": "name",
+                                                        "v": "SendEmailSpinner"
+                                                      },
+                                                      {
+                                                        "k": "left",
+                                                        "v": 0
+                                                      },
+                                                      {
+                                                        "k": "top",
+                                                        "v": 0
+                                                      },
+                                                      {
+                                                        "k": "autoHeight",
+                                                        "v": true
+                                                      },
+                                                      {
+                                                        "k": "invisibilityType",
+                                                        "v": "hidden"
+                                                      }
+                                                    ],
+                                                    "type": "ComponentInfo"
+                                                  },
+                                                  {
+                                                    "class": "SimpleButton",
+                                                    "key": "0_1619610313",
+                                                    "propList": [
+                                                      {
+                                                        "k": "styleMap",
+                                                        "v": {
+                                                          "name": "styleMap",
+                                                          "properties": [],
+                                                          "type": "PropertyMap[styleMap]"
+                                                        }
+                                                      },
+                                                      {
+                                                        "k": "width",
+                                                        "v": 92
+                                                      },
+                                                      {
+                                                        "k": "height",
+                                                        "v": 36
+                                                      },
+                                                      {
+                                                        "k": "name",
+                                                        "v": "SendEmailButton"
+                                                      },
+                                                      {
+                                                        "k": "left",
+                                                        "v": 0
+                                                      },
+                                                      {
+                                                        "k": "top",
+                                                        "v": 0
+                                                      },
+                                                      {
+                                                        "k": "autoWidth",
+                                                        "v": true
+                                                      },
+                                                      {
+                                                        "k": "autoHeight",
+                                                        "v": true
+                                                      },
+                                                      {
+                                                        "k": "variant",
+                                                        "v": "RaisedPrimary"
+                                                      },
+                                                      {
+                                                        "k": "text",
+                                                        "v": "Send"
+                                                      },
+                                                      {
+                                                        "k": "action",
+                                                        "v": "sendEmailMessage(widget);"
+                                                      },
+                                                      {
+                                                        "k": "bindings",
+                                                        "v": {
+                                                          "list": [{
+                                                            "sourceExpression": "enabled",
+                                                            "targetExpression": "!@properties.KLN45OpB",
+                                                            "targetLiteralExpression": "!@properties.SendingEmail",
+                                                            "type": "BindingInfo"
+                                                          }],
+                                                          "type": "List[BindingInfo]"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "type": "ComponentInfo"
+                                                  }
+                                                ],
+                                                "type": "List[ComponentInfo]"
+                                              }
+                                            },
+                                            {
+                                              "k": "alignChildren",
+                                              "v": "center"
+                                            },
+                                            {
+                                              "k": "justify",
+                                              "v": "spaceBetween"
+                                            }
+                                          ],
+                                          "type": "ComponentInfo"
+                                        }
+                                      ],
+                                      "type": "List[ComponentInfo]"
+                                    }
+                                  },
+                                  {
+                                    "k": "autoHeight",
+                                    "v": true
+                                  }
+                                ],
+                                "type": "ComponentInfo"
+                              },
+                              {
+                                "class": "Panel",
+                                "key": "1_1967810916",
+                                "propList": [
+                                  {
+                                    "k": "styleMap",
+                                    "v": {
+                                      "name": "styleMap",
+                                      "properties": [],
+                                      "type": "PropertyMap[styleMap]"
+                                    }
+                                  },
+                                  {
+                                    "k": "width",
+                                    "v": 570
+                                  },
+                                  {
+                                    "k": "height",
+                                    "v": 613
+                                  },
+                                  {
+                                    "k": "name",
+                                    "v": "TemplateEmailFormPanel"
+                                  },
+                                  {
+                                    "k": "left",
+                                    "v": 0
+                                  },
+                                  {
+                                    "k": "top",
+                                    "v": 0
+                                  },
+                                  {
+                                    "k": "variant",
+                                    "v": "Paper"
+                                  },
+                                  {
+                                    "k": "right",
+                                    "v": 0
+                                  },
+                                  {
+                                    "k": "bottom",
+                                    "v": 0
+                                  },
+                                  {
+                                    "k": "layout",
+                                    "v": "vertical"
+                                  },
+                                  {
+                                    "k": "children",
+                                    "v": {
+                                      "list": [
+                                        {
+                                          "class": "SimpleLabel",
+                                          "key": "2_1722856097",
+                                          "propList": [
+                                            {
+                                              "k": "styleMap",
+                                              "v": {
+                                                "name": "styleMap",
+                                                "properties": [
+                                                  {
+                                                    "name": "margin-top",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-left",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-right",
+                                                    "value": "24px"
+                                                  }
+                                                ],
+                                                "type": "PropertyMap[styleMap]"
+                                              }
+                                            },
+                                            {
+                                              "k": "width",
+                                              "v": 100
+                                            },
+                                            {
+                                              "k": "height",
+                                              "v": 20
+                                            },
+                                            {
+                                              "k": "name",
+                                              "v": "TemplateHeaderLabel"
+                                            },
+                                            {
+                                              "k": "left",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "top",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "autoWidth",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "autoHeight",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "variant",
+                                              "v": "Headline"
+                                            },
+                                            {
+                                              "k": "text",
+                                              "v": "Send email using HTML template"
+                                            }
+                                          ],
+                                          "type": "ComponentInfo"
+                                        },
+                                        {
+                                          "class": "TextField",
+                                          "key": "3_1069634756",
+                                          "propList": [
+                                            {
+                                              "k": "styleMap",
+                                              "v": {
+                                                "name": "styleMap",
+                                                "properties": [
+                                                  {
+                                                    "name": "margin-top",
+                                                    "value": "16px"
+                                                  },
+                                                  {
+                                                    "name": "margin-left",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-right",
+                                                    "value": "24px"
+                                                  }
+                                                ],
+                                                "type": "PropertyMap[styleMap]"
+                                              }
+                                            },
+                                            {
+                                              "k": "width",
+                                              "v": 100
+                                            },
+                                            {
+                                              "k": "height",
+                                              "v": 32
+                                            },
+                                            {
+                                              "k": "name",
+                                              "v": "TemplateToTextBox"
+                                            },
+                                            {
+                                              "k": "top",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "autoHeight",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "autoWidth",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "align",
+                                              "v": "stretch"
+                                            },
+                                            {
+                                              "k": "label",
+                                              "v": "To"
+                                            },
+                                            {
+                                              "k": "required",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "bindings",
+                                              "v": {
+                                                "list": [{
+                                                  "sourceExpression": "value",
+                                                  "targetExpression": "@user.email",
+                                                  "targetLiteralExpression": "@user.email",
+                                                  "type": "BindingInfo"
+                                                }],
+                                                "type": "List[BindingInfo]"
+                                              }
+                                            }
+                                          ],
+                                          "type": "ComponentInfo"
+                                        },
+                                        {
+                                          "class": "TextField",
+                                          "key": "4_237293035",
+                                          "propList": [
+                                            {
+                                              "k": "styleMap",
+                                              "v": {
+                                                "name": "styleMap",
+                                                "properties": [
+                                                  {
+                                                    "name": "margin-top",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-left",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-right",
+                                                    "value": "24px"
+                                                  }
+                                                ],
+                                                "type": "PropertyMap[styleMap]"
+                                              }
+                                            },
+                                            {
+                                              "k": "width",
+                                              "v": 381
+                                            },
+                                            {
+                                              "k": "height",
+                                              "v": 45
+                                            },
+                                            {
+                                              "k": "name",
+                                              "v": "TemplateSubjectTextBox"
+                                            },
+                                            {
+                                              "k": "top",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "autoHeight",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "autoWidth",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "align",
+                                              "v": "stretch"
+                                            },
+                                            {
+                                              "k": "label",
+                                              "v": "Subject"
+                                            },
+                                            {
+                                              "k": "constrain_left",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "constrain_right",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_width",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "constrain_minWidth",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_maxWidth",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_top",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "constrain_bottom",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_height",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "constrain_minHeight",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_maxHeight",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "left",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "required",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "value",
+                                              "v": "Test email message"
+                                            }
+                                          ],
+                                          "type": "ComponentInfo"
+                                        },
+                                        {
+                                          "class": "TextAreaComponent",
+                                          "key": "0_313747736",
+                                          "propList": [
+                                            {
+                                              "k": "styleMap",
+                                              "v": {
+                                                "name": "styleMap",
+                                                "properties": [
+                                                  {
+                                                    "name": "margin-top",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-left",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-right",
+                                                    "value": "24px"
+                                                  }
+                                                ],
+                                                "type": "PropertyMap[styleMap]"
+                                              }
+                                            },
+                                            {
+                                              "k": "width",
+                                              "v": 400
+                                            },
+                                            {
+                                              "k": "height",
+                                              "v": 174
+                                            },
+                                            {
+                                              "k": "name",
+                                              "v": "TemplateTextArea"
+                                            },
+                                            {
+                                              "k": "left",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "top",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "autoWidth",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "align",
+                                              "v": "stretch"
+                                            },
+                                            {
+                                              "k": "autoHeight",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "grow",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "label",
+                                              "v": "Template"
+                                            },
+                                            {
+                                              "k": "value",
+                                              "v": "\u003cp\u003eHello \u003c?\u003d data.recepientName ?\u003e,\u003c\/p\u003e\u003cp\u003eApp name is \"\u003c?\u003d data.appName ?\u003e\"\u003c\/p\u003e"
+                                            },
+                                            {
+                                              "k": "required",
+                                              "v": true
+                                            }
+                                          ],
+                                          "type": "ComponentInfo"
+                                        },
+                                        {
+                                          "class": "TextField",
+                                          "key": "0_708515929",
+                                          "propList": [
+                                            {
+                                              "k": "styleMap",
+                                              "v": {
+                                                "name": "styleMap",
+                                                "properties": [
+                                                  {
+                                                    "name": "margin-top",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-left",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-right",
+                                                    "value": "24px"
+                                                  }
+                                                ],
+                                                "type": "PropertyMap[styleMap]"
+                                              }
+                                            },
+                                            {
+                                              "k": "width",
+                                              "v": 100
+                                            },
+                                            {
+                                              "k": "height",
+                                              "v": 32
+                                            },
+                                            {
+                                              "k": "name",
+                                              "v": "RecepientNameTextBox"
+                                            },
+                                            {
+                                              "k": "left",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "top",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "autoHeight",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "autoWidth",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "align",
+                                              "v": "stretch"
+                                            },
+                                            {
+                                              "k": "value",
+                                              "v": "John Doe"
+                                            },
+                                            {
+                                              "k": "label",
+                                              "v": "Template parameter - Recepient name"
+                                            },
+                                            {
+                                              "k": "required",
+                                              "v": true
+                                            }
+                                          ],
+                                          "type": "ComponentInfo"
+                                        },
+                                        {
+                                          "class": "TextField",
+                                          "key": "22_496387290",
+                                          "propList": [
+                                            {
+                                              "k": "styleMap",
+                                              "v": {
+                                                "name": "styleMap",
+                                                "properties": [
+                                                  {
+                                                    "name": "margin-top",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-left",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "margin-right",
+                                                    "value": "24px"
+                                                  }
+                                                ],
+                                                "type": "PropertyMap[styleMap]"
+                                              }
+                                            },
+                                            {
+                                              "k": "width",
+                                              "v": 522
+                                            },
+                                            {
+                                              "k": "height",
+                                              "v": 45
+                                            },
+                                            {
+                                              "k": "name",
+                                              "v": "AppNameTextBox"
+                                            },
+                                            {
+                                              "k": "left",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "top",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "autoHeight",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "autoWidth",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "align",
+                                              "v": "stretch"
+                                            },
+                                            {
+                                              "k": "value",
+                                              "v": "Email Sample"
+                                            },
+                                            {
+                                              "k": "label",
+                                              "v": "Template parameter - App name"
+                                            },
+                                            {
+                                              "k": "constrain_left",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "constrain_right",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_width",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "constrain_minWidth",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_maxWidth",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_top",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "constrain_bottom",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_height",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "constrain_minHeight",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "constrain_maxHeight",
+                                              "v": false
+                                            },
+                                            {
+                                              "k": "required",
+                                              "v": true
+                                            }
+                                          ],
+                                          "type": "ComponentInfo"
+                                        },
+                                        {
+                                          "class": "Panel",
+                                          "key": "6_249822090",
+                                          "propList": [
+                                            {
+                                              "k": "styleMap",
+                                              "v": {
+                                                "name": "styleMap",
+                                                "properties": [
+                                                  {
+                                                    "name": "margin-top",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "padding-top",
+                                                    "value": "8px"
+                                                  },
+                                                  {
+                                                    "name": "padding-bottom",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "padding-left",
+                                                    "value": "24px"
+                                                  },
+                                                  {
+                                                    "name": "padding-right",
+                                                    "value": "24px"
+                                                  }
+                                                ],
+                                                "type": "PropertyMap[styleMap]"
+                                              }
+                                            },
+                                            {
+                                              "k": "width",
+                                              "v": 400
+                                            },
+                                            {
+                                              "k": "height",
+                                              "v": 200
+                                            },
+                                            {
+                                              "k": "layout",
+                                              "v": "horizontal"
+                                            },
+                                            {
+                                              "k": "name",
+                                              "v": "TemplateEmailButtonsPanel"
+                                            },
+                                            {
+                                              "k": "left",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "top",
+                                              "v": 0
+                                            },
+                                            {
+                                              "k": "autoWidth",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "align",
+                                              "v": "stretch"
+                                            },
+                                            {
+                                              "k": "autoHeight",
+                                              "v": true
+                                            },
+                                            {
+                                              "k": "children",
+                                              "v": {
+                                                "list": [
+                                                  {
+                                                    "class": "LoadingIndicator",
+                                                    "key": "23_636073030",
+                                                    "propList": [
+                                                      {
+                                                        "k": "styleMap",
+                                                        "v": {
+                                                          "name": "styleMap",
+                                                          "properties": [],
+                                                          "type": "PropertyMap[styleMap]"
+                                                        }
+                                                      },
+                                                      {
+                                                        "k": "bindings",
+                                                        "v": {
+                                                          "list": [{
+                                                            "sourceExpression": "visible",
+                                                            "targetExpression": "@properties.cRhWlQkU",
+                                                            "targetLiteralExpression": "@properties.SendingTemplateEmail",
+                                                            "type": "BindingInfo"
+                                                          }],
+                                                          "type": "List[BindingInfo]"
+                                                        }
+                                                      },
+                                                      {
+                                                        "k": "width",
+                                                        "v": 22
+                                                      },
+                                                      {
+                                                        "k": "height",
+                                                        "v": 25
+                                                      },
+                                                      {
+                                                        "k": "name",
+                                                        "v": "SendTemplateEmailSpinner"
+                                                      },
+                                                      {
+                                                        "k": "left",
+                                                        "v": 0
+                                                      },
+                                                      {
+                                                        "k": "top",
+                                                        "v": 0
+                                                      },
+                                                      {
+                                                        "k": "autoHeight",
+                                                        "v": true
+                                                      },
+                                                      {
+                                                        "k": "constrain_left",
+                                                        "v": true
+                                                      },
+                                                      {
+                                                        "k": "constrain_right",
+                                                        "v": false
+                                                      },
+                                                      {
+                                                        "k": "constrain_width",
+                                                        "v": true
+                                                      },
+                                                      {
+                                                        "k": "constrain_minWidth",
+                                                        "v": false
+                                                      },
+                                                      {
+                                                        "k": "constrain_maxWidth",
+                                                        "v": false
+                                                      },
+                                                      {
+                                                        "k": "constrain_top",
+                                                        "v": true
+                                                      },
+                                                      {
+                                                        "k": "constrain_bottom",
+                                                        "v": false
+                                                      },
+                                                      {
+                                                        "k": "constrain_height",
+                                                        "v": true
+                                                      },
+                                                      {
+                                                        "k": "constrain_minHeight",
+                                                        "v": false
+                                                      },
+                                                      {
+                                                        "k": "constrain_maxHeight",
+                                                        "v": false
+                                                      },
+                                                      {
+                                                        "k": "right",
+                                                        "v": 0
+                                                      },
+                                                      {
+                                                        "k": "bottom",
+                                                        "v": 0
+                                                      },
+                                                      {
+                                                        "k": "invisibilityType",
+                                                        "v": "hidden"
+                                                      }
+                                                    ],
+                                                    "type": "ComponentInfo"
+                                                  },
+                                                  {
+                                                    "class": "SimpleButton",
+                                                    "key": "7_827473961",
+                                                    "propList": [
+                                                      {
+                                                        "k": "styleMap",
+                                                        "v": {
+                                                          "name": "styleMap",
+                                                          "properties": [],
+                                                          "type": "PropertyMap[styleMap]"
+                                                        }
+                                                      },
+                                                      {
+                                                        "k": "width",
+                                                        "v": 92
+                                                      },
+                                                      {
+                                                        "k": "height",
+                                                        "v": 36
+                                                      },
+                                                      {
+                                                        "k": "name",
+                                                        "v": "SendTemplateEmailButton"
+                                                      },
+                                                      {
+                                                        "k": "left",
+                                                        "v": 0
+                                                      },
+                                                      {
+                                                        "k": "top",
+                                                        "v": 0
+                                                      },
+                                                      {
+                                                        "k": "autoWidth",
+                                                        "v": true
+                                                      },
+                                                      {
+                                                        "k": "autoHeight",
+                                                        "v": true
+                                                      },
+                                                      {
+                                                        "k": "variant",
+                                                        "v": "RaisedPrimary"
+                                                      },
+                                                      {
+                                                        "k": "text",
+                                                        "v": "Send"
+                                                      },
+                                                      {
+                                                        "k": "action",
+                                                        "v": "sendTemplateEmailMessage(widget);"
+                                                      },
+                                                      {
+                                                        "k": "bindings",
+                                                        "v": {
+                                                          "list": [{
+                                                            "sourceExpression": "enabled",
+                                                            "targetExpression": "!@properties.cRhWlQkU",
+                                                            "targetLiteralExpression": "!@properties.SendingTemplateEmail",
+                                                            "type": "BindingInfo"
+                                                          }],
+                                                          "type": "List[BindingInfo]"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "type": "ComponentInfo"
+                                                  }
+                                                ],
+                                                "type": "List[ComponentInfo]"
+                                              }
+                                            },
+                                            {
+                                              "k": "alignChildren",
+                                              "v": "center"
+                                            },
+                                            {
+                                              "k": "justify",
+                                              "v": "spaceBetween"
+                                            }
+                                          ],
+                                          "type": "ComponentInfo"
+                                        }
+                                      ],
+                                      "type": "List[ComponentInfo]"
+                                    }
+                                  },
+                                  {
+                                    "k": "autoHeight",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "constrain_left",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "constrain_right",
+                                    "v": false
+                                  },
+                                  {
+                                    "k": "constrain_width",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "constrain_minWidth",
+                                    "v": false
+                                  },
+                                  {
+                                    "k": "constrain_maxWidth",
+                                    "v": false
+                                  },
+                                  {
+                                    "k": "constrain_top",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "constrain_bottom",
+                                    "v": false
+                                  },
+                                  {
+                                    "k": "constrain_height",
+                                    "v": true
+                                  },
+                                  {
+                                    "k": "constrain_minHeight",
+                                    "v": false
+                                  },
+                                  {
+                                    "k": "constrain_maxHeight",
+                                    "v": false
+                                  }
+                                ],
+                                "type": "ComponentInfo"
+                              }
+                            ],
+                            "type": "List[ComponentInfo]"
+                          }
+                        },
+                        {
+                          "k": "variant",
+                          "v": "Transparent"
+                        },
+                        {
+                          "k": "wrap",
+                          "v": "wrap"
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    }
+                  ],
+                  "type": "List[ComponentInfo]"
+                }
+              },
+              {
+                "k": "alignChildren",
+                "v": "start"
+              },
+              {
+                "k": "justify",
+                "v": "start"
+              }
+            ],
+            "type": "ComponentInfo"
+          }
+        ],
+        "type": "List[ComponentInfo]"
+      }
+    },
+    {
+      "k": "isRootComponent",
+      "v": true
+    },
+    {
+      "k": "bindings",
+      "v": {
+        "list": [],
+        "type": "List[BindingInfo]"
+      }
+    },
+    {
+      "k": "onLoad",
+      "v": {
+        "isNull": true,
+        "type": "String"
+      }
+    },
+    {
+      "k": "displayName",
+      "v": "Email Sample"
+    }
+  ],
+  "type": "ComponentInfo"
+}

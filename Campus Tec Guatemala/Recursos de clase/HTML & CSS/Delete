@@ -1,0 +1,16 @@
+        public void actualizar(Connection conexion, Tarea tarea) throws SQLException{
+                try {
+                        PreparedStatement consulta2;
+                            consulta2 = conexion.prepareStatement("UPDATE "
+                                    + this.tabla
+                                    + " SET titulo = ?, descripcion = ? WHERE id_tarea = ?");
+                        consulta2.setString(1, tarea.getTitulo());
+                        consulta2.setString(2, tarea.getDescripcion());
+                        consulta2.setInt(3, tarea.getQueryID());
+                        consulta2.executeUpdate();
+                    }
+
+            catch(SQLException ex){
+            throw new SQLException(ex);
+        }
+    }

@@ -1,0 +1,43 @@
+{
+  "class": "Panel",
+  "key": "tIccEiaKQ91tKERH1OJTSCsUYe8iOLvO",
+  "permission": {
+    "name": "canRead",
+    "type": "compoundEveryone"
+  },
+  "propList": [
+    {
+      "k": "styleMap",
+      "v": {
+        "name": "styleMap",
+        "properties": [],
+        "type": "PropertyMap[styleMap]"
+      }
+    },
+    {
+      "k": "width",
+      "v": 960
+    },
+    {
+      "k": "height",
+      "v": 960
+    },
+    {
+      "k": "name",
+      "v": "Cases"
+    },
+    {
+      "k": "variant",
+      "v": "Background"
+    },
+    {
+      "k": "top",
+      "v": 4
+    },
+    {
+      "k": "left",
+      "v": 4
+    }
+  ],
+  "type": "ComponentInfo"
+}

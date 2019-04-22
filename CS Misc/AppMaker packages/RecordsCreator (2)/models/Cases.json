@@ -1,0 +1,105 @@
+{
+  "dataSources": [{
+    "customQuery": "",
+    "key": "FXovqvoZXYqpt9jieART5ysxstuIChk4_default",
+    "modelKey": "FXovqvoZXYqpt9jieART5ysxstuIChk4",
+    "name": "Cases",
+    "pageSize": 100,
+    "type": "QUERY"
+  }],
+  "defaultDataSourceKey": "FXovqvoZXYqpt9jieART5ysxstuIChk4_default",
+  "eventPermissions": [
+    {
+      "name": "ON_CREATE",
+      "type": "inherited"
+    },
+    {
+      "name": "ON_LOAD",
+      "type": "inherited"
+    },
+    {
+      "name": "ON_SAVE",
+      "type": "inherited"
+    },
+    {
+      "name": "ON_DELETE",
+      "type": "inherited"
+    }
+  ],
+  "events": [],
+  "fields": [
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "POD",
+      "key": "bTfeZYIAXtZ5QkTw",
+      "minLength": 0,
+      "name": "POD",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notIn"
+      ],
+      "columnName": "CaseAge",
+      "integer": false,
+      "key": "ztM7F76pKly1nwnQ",
+      "name": "CaseAge",
+      "required": false,
+      "type": "Number"
+    },
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notIn"
+      ],
+      "columnName": "CaseNumber",
+      "integer": false,
+      "key": "aqLiDzDysKrIaNM7",
+      "name": "CaseNumber",
+      "required": false,
+      "type": "Number"
+    }
+  ],
+  "key": "FXovqvoZXYqpt9jieART5ysxstuIChk4",
+  "modelPermission": {
+    "name": "model permission",
+    "permissions": [
+      {"type": "nobody"},
+      {
+        "groupKeys": ["Admins"],
+        "type": "groups"
+      }
+    ],
+    "type": "compound"
+  },
+  "name": "Cases",
+  "type": "BRIX",
+  "userIdFieldType": "USER_ID"
+}

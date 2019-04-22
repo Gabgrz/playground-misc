@@ -1,0 +1,847 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [],
+    "entries": [
+      {
+        "startedDateTime": "2018-08-08T03:15:52.927Z",
+        "time": 209.91357599874027,
+        "request": {
+          "method": "POST",
+          "url": "https://docs.google.com/spreadsheets/d/1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190/logImpressions?id=1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190&token=AC4w5Vj5WolrQejQgKW9_nfBJttPGTJqsw%3A1533694458471&includes_info_params=true",
+          "httpVersion": "http/2.0+quic/39",
+          "headers": [
+            {
+              "name": "x-build",
+              "value": "trix_2018.30-Tue_RC04"
+            },
+            {
+              "name": "x-same-domain",
+              "value": "1"
+            },
+            {
+              "name": "origin",
+              "value": "https://docs.google.com"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "x-rel-id",
+              "value": "5b4.18cc3d46.s"
+            },
+            {
+              "name": "cookie",
+              "value": "S=apps-spreadsheets=pLi7jFsLXLVQjRRzWpZRcCAyepPzoKf6; HSID=AMx5uMiSmHNhivofH; SSID=AWQ5-Yol4ZMNddRsH; APISID=hFkXhFXgGXRE6FDF/Av4bH70NXDYCLQHJJ; SAPISID=TTpLHEt0ayMshhNw/Ayy-9hkG22nufh0V0; SID=UQarxDlJnF_RgAyERPqdUscJuOGPmIhA6OhCH7ypJDd4nMeeMe_y03fuKNTzwWqORDxubA.; NID=136=it4212CYV8VemEEa3ShaRGHrVTT3EX9mcPSG4QagYphES1ASh_W4ZUUengX14_K24H0tUN34ifro7yIFnDJpgFL-jgVUBBhzMjR89pXUOxm6KzlViJZxk4HXxiGPyMlGshxrx_rcNiElF1NeSpWL2Vbge01hiPquzCLzAGk7fGkHGiD916b47pehrRBv4pxpzwmgqL9j6gepVCK_OBQ-2UAYTqkZGHgk; S=explorer=WJWW3NbmkJ1oGT5E4Gy_Rws2RQCvZ1ug; S=maestro=CApuJQb1TlbFQNv7-5HKvlvDcw90QRN_; 1P_JAR=2018-8-8-3; SIDCC=AGIhQKRGXU1JoxDzyJHi0J1piVbhEggvdlR0cDiKH2SEIobkYjgOXsuxTQ64IZCzFtS0NN4Eow"
+            },
+            {
+              "name": "x-client-data",
+              "value": "CJa2yQEIo7bJAQjBtskBCKmdygEI2J3KAQioo8oB"
+            },
+            {
+              "name": "content-length",
+              "value": "4236"
+            },
+            {
+              "name": "x-chrome-connected",
+              "value": "id=111769293608951020425,mode=0,enable_account_consistency=false"
+            },
+            {
+              "name": ":path",
+              "value": "/spreadsheets/d/1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190/logImpressions?id=1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190&token=AC4w5Vj5WolrQejQgKW9_nfBJttPGTJqsw%3A1533694458471&includes_info_params=true"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+            },
+            {
+              "name": "content-type",
+              "value": "application/x-www-form-urlencoded;charset=UTF-8"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "referer",
+              "value": "https://docs.google.com/spreadsheets/d/1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190/edit"
+            },
+            {
+              "name": ":authority",
+              "value": "docs.google.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "id",
+              "value": "1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190"
+            },
+            {
+              "name": "token",
+              "value": "AC4w5Vj5WolrQejQgKW9_nfBJttPGTJqsw%3A1533694458471"
+            },
+            {
+              "name": "includes_info_params",
+              "value": "true"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "S",
+              "value": "apps-spreadsheets=pLi7jFsLXLVQjRRzWpZRcCAyepPzoKf6",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "HSID",
+              "value": "AMx5uMiSmHNhivofH",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SSID",
+              "value": "AWQ5-Yol4ZMNddRsH",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "APISID",
+              "value": "hFkXhFXgGXRE6FDF/Av4bH70NXDYCLQHJJ",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SAPISID",
+              "value": "TTpLHEt0ayMshhNw/Ayy-9hkG22nufh0V0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SID",
+              "value": "UQarxDlJnF_RgAyERPqdUscJuOGPmIhA6OhCH7ypJDd4nMeeMe_y03fuKNTzwWqORDxubA.",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "NID",
+              "value": "136=it4212CYV8VemEEa3ShaRGHrVTT3EX9mcPSG4QagYphES1ASh_W4ZUUengX14_K24H0tUN34ifro7yIFnDJpgFL-jgVUBBhzMjR89pXUOxm6KzlViJZxk4HXxiGPyMlGshxrx_rcNiElF1NeSpWL2Vbge01hiPquzCLzAGk7fGkHGiD916b47pehrRBv4pxpzwmgqL9j6gepVCK_OBQ-2UAYTqkZGHgk",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "S",
+              "value": "explorer=WJWW3NbmkJ1oGT5E4Gy_Rws2RQCvZ1ug",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "S",
+              "value": "maestro=CApuJQb1TlbFQNv7-5HKvlvDcw90QRN_",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "1P_JAR",
+              "value": "2018-8-8-3",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SIDCC",
+              "value": "AGIhQKRGXU1JoxDzyJHi0J1piVbhEggvdlR0cDiKH2SEIobkYjgOXsuxTQ64IZCzFtS0NN4Eow",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": -1,
+          "bodySize": 0,
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded;charset=UTF-8",
+            "text": "impressionBatch=%5B%5B%5Bnull%2C102000%2C463%2C1533698139178000%2Cnull%2C458%2Cnull%2C%5B%5B1533698139178000%5D%2Cnull%2C1%5D%2Cnull%2C102000%2Cnull%2C463%2C463%5D%2C%5Bnull%2C102001%2C464%2C1533698147719000%2Cnull%2C458%2Cnull%2C%5B%5B1533698147719000%5D%2Cnull%2C1%5D%2Cnull%2C102001%2Cnull%2C464%2C464%5D%2C%5Bnull%2C102000%2C465%2C1533698152924000%2Cnull%2C458%2Cnull%2C%5B%5B1533698152924000%5D%2Cnull%2C1%5D%2Cnull%2C102000%2Cnull%2C465%2C465%5D%5D%2C%5B%22CPC5kYux3NwCFdoIyAod4BcG-A%22%2C1533694466167000%2C1533694458486000%2C%22ADFN-cuWiO9KQJq_SijcPjURZkpgH7VlaA38IFPfLwpfWgo2-5TrX5X_Aw1CzG7NfexL3dhLWEKv%22%2Cnull%2C11%5D%2C%5B%22en%22%2C%22Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F67.0.3396.99%20Safari%2F537.36%22%2C%221058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190%22%2Cnull%2C%5Bfalse%2Cfalse%5D%2Cnull%2Cnull%2Cnull%2C1%2C%5B%5B5703074%2C5703339%2C5702706%2C5704152%2C5700559%2C5701594%2C5704450%2C5704144%2C5702027%2C5701820%2C5700716%2C5700579%2C5701516%2C5701844%2C5703355%2C5702803%2C5702728%2C5703130%2C5702877%2C5700998%2C5700893%2C5702441%2C5701804%2C5700933%2C5701433%2C5700624%2C5703259%2C5703539%2C5703231%2C5701915%2C5701232%2C5703323%2C5703991%2C5701574%2C5703762%2C5701500%2C5700650%2C5703271%2C5703006%2C5702556%2C5700019%2C5700333%2C5703745%2C5704331%2C5704160%2C5703190%2C5700035%2C5700446%2C5700016%2C5702280%2C5702912%2C5702445%2C5701461%2C5702785%2C5704229%2C5700042%2C5702873%2C5701865%2C5702640%2C5700138%2C5703186%2C5702301%2C5702195%2C5700250%2C5700286%2C5702409%2C5704039%2C5701911%2C5701731%2C5703451%2C5701536%2C5703543%2C5704257%2C5703837%2C5701558%2C5701030%2C5703419%2C5700937%2C5702881%2C5700884%2C5701067%2C5703347%2C5700358%2C5701861%2C5703515%2C5700105%2C5702632%2C5701963%2C5700422%2C5701022%2C5701159%2C5701602%2C5703741%2C5703391%2C5702215%2C5704431%2C5702135%2C5701532%2C5703016%2C5700876%2C5701180%2C5702011%2C5700680%2C5701719%2C5702487%2C5700100%2C5702916%2C5703154%2C5703210%2C5702968%2C5703235%2C5701626%2C5703811%2C5703535%2C5703792%2C5702187%2C5703038%2C5701935%2C5702628%2C5703182%2C5703815%2C5701220%2C5703937%2C5701319%2C5700551%2C5701853%2C5701967%2C5702023%2C5703319%2C5702332%2C5700057%2C5701889%2C5703054%2C5703615%2C5702123%2C5703255%2C5700752%2C5703178%2C5702459%2C5701995%2C5703479%2C5700028%2C5700808%2C5701034%2C5702636%2C5701781%2C5703279%2C5701445%2C5701437%2C5703945%2C5700103%2C5701757%2C5703754%5D%5D%2Cnull%2C%5B1%2C1%2C1%2C1%2C1%5D%5D%2C%5B6%5D%2C%5B%5Bnull%2Cnull%2C%5B2%2C2%2C1%2C1%2Cfalse%2Ctrue%2Cfalse%2Cfalse%2Cnull%2Cnull%2Cfalse%2Cfalse%2C1%2C3%2Cnull%2C%5Bnull%2Cnull%2Cnull%2Cnull%2C1%2C0%2Cnull%2Cnull%2C104%2C10%2Cnull%2Cnull%2C2000000%2C1040%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Ctrue%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cfalse%2Cfalse%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C1533694458778000%2Cfalse%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C17%2C2%2C17%2Cnull%2Cnull%2C2%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C1%2Cnull%2Cfalse%2C%5Btrue%2Ctrue%2Cfalse%5D%2C7%2C%5Bfalse%5D%2Cfalse%2Cnull%2C1%2Cnull%2C%5Bnull%2Cnull%2C4%2Cnull%2C400%2C4%2C7%2Cfalse%5D%2Cfalse%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cfalse%2Cfalse%2C1%5D%2C%5B1%2C%5B%5D%2Cnull%2Ctrue%2Ctrue%2C45%2Cnull%2Cnull%2C%5B%5D%2C%221058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190%22%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B%5B2700003%2C2700004%2C2700005%2C2700023%2C2700024%2C2700028%2C5701457%2C5701461%2C5701504%2C5701508%2C5701943%2C5701975%2C5702015%2C5702039%2C5702047%2C5702079%2C5702171%2C5702340%2C5702515%2C5702576%2C5703399%2C5703451%2C5703639%2C5703701%2C5703831%2C5704108%2C5704277%2C5704457%5D%5D%5D%5D%2C%5B%22trix_2018.30-Tue_RC04%22%5D%2Cnull%2C1%2C2%2C%5B1533694458056000%2C0%2C0%2C1533694458058000%2C1533694458058000%2C1533694458058000%2C1533694458058000%2C1533694458058000%2Cnull%2C1533694458064000%2C1533694458546000%2C1533694458583000%5D%2Cnull%2Cnull%2C%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C8192%2C8%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5Bnull%2Cnull%2Ctrue%2Cnull%2Cnull%2Cnull%2Cfalse%2Ctrue%2C%5B1%2C%5B3300118%2C3300131%2C3300161%2C3313321%2C3313368%2C3314088%5D%5D%5D%5D%5D",
+            "params": [
+              {
+                "name": "impressionBatch",
+                "value": "%5B%5B%5Bnull%2C102000%2C463%2C1533698139178000%2Cnull%2C458%2Cnull%2C%5B%5B1533698139178000%5D%2Cnull%2C1%5D%2Cnull%2C102000%2Cnull%2C463%2C463%5D%2C%5Bnull%2C102001%2C464%2C1533698147719000%2Cnull%2C458%2Cnull%2C%5B%5B1533698147719000%5D%2Cnull%2C1%5D%2Cnull%2C102001%2Cnull%2C464%2C464%5D%2C%5Bnull%2C102000%2C465%2C1533698152924000%2Cnull%2C458%2Cnull%2C%5B%5B1533698152924000%5D%2Cnull%2C1%5D%2Cnull%2C102000%2Cnull%2C465%2C465%5D%5D%2C%5B%22CPC5kYux3NwCFdoIyAod4BcG-A%22%2C1533694466167000%2C1533694458486000%2C%22ADFN-cuWiO9KQJq_SijcPjURZkpgH7VlaA38IFPfLwpfWgo2-5TrX5X_Aw1CzG7NfexL3dhLWEKv%22%2Cnull%2C11%5D%2C%5B%22en%22%2C%22Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F67.0.3396.99%20Safari%2F537.36%22%2C%221058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190%22%2Cnull%2C%5Bfalse%2Cfalse%5D%2Cnull%2Cnull%2Cnull%2C1%2C%5B%5B5703074%2C5703339%2C5702706%2C5704152%2C5700559%2C5701594%2C5704450%2C5704144%2C5702027%2C5701820%2C5700716%2C5700579%2C5701516%2C5701844%2C5703355%2C5702803%2C5702728%2C5703130%2C5702877%2C5700998%2C5700893%2C5702441%2C5701804%2C5700933%2C5701433%2C5700624%2C5703259%2C5703539%2C5703231%2C5701915%2C5701232%2C5703323%2C5703991%2C5701574%2C5703762%2C5701500%2C5700650%2C5703271%2C5703006%2C5702556%2C5700019%2C5700333%2C5703745%2C5704331%2C5704160%2C5703190%2C5700035%2C5700446%2C5700016%2C5702280%2C5702912%2C5702445%2C5701461%2C5702785%2C5704229%2C5700042%2C5702873%2C5701865%2C5702640%2C5700138%2C5703186%2C5702301%2C5702195%2C5700250%2C5700286%2C5702409%2C5704039%2C5701911%2C5701731%2C5703451%2C5701536%2C5703543%2C5704257%2C5703837%2C5701558%2C5701030%2C5703419%2C5700937%2C5702881%2C5700884%2C5701067%2C5703347%2C5700358%2C5701861%2C5703515%2C5700105%2C5702632%2C5701963%2C5700422%2C5701022%2C5701159%2C5701602%2C5703741%2C5703391%2C5702215%2C5704431%2C5702135%2C5701532%2C5703016%2C5700876%2C5701180%2C5702011%2C5700680%2C5701719%2C5702487%2C5700100%2C5702916%2C5703154%2C5703210%2C5702968%2C5703235%2C5701626%2C5703811%2C5703535%2C5703792%2C5702187%2C5703038%2C5701935%2C5702628%2C5703182%2C5703815%2C5701220%2C5703937%2C5701319%2C5700551%2C5701853%2C5701967%2C5702023%2C5703319%2C5702332%2C5700057%2C5701889%2C5703054%2C5703615%2C5702123%2C5703255%2C5700752%2C5703178%2C5702459%2C5701995%2C5703479%2C5700028%2C5700808%2C5701034%2C5702636%2C5701781%2C5703279%2C5701445%2C5701437%2C5703945%2C5700103%2C5701757%2C5703754%5D%5D%2Cnull%2C%5B1%2C1%2C1%2C1%2C1%5D%5D%2C%5B6%5D%2C%5B%5Bnull%2Cnull%2C%5B2%2C2%2C1%2C1%2Cfalse%2Ctrue%2Cfalse%2Cfalse%2Cnull%2Cnull%2Cfalse%2Cfalse%2C1%2C3%2Cnull%2C%5Bnull%2Cnull%2Cnull%2Cnull%2C1%2C0%2Cnull%2Cnull%2C104%2C10%2Cnull%2Cnull%2C2000000%2C1040%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Ctrue%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cfalse%2Cfalse%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C1533694458778000%2Cfalse%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C17%2C2%2C17%2Cnull%2Cnull%2C2%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C1%2Cnull%2Cfalse%2C%5Btrue%2Ctrue%2Cfalse%5D%2C7%2C%5Bfalse%5D%2Cfalse%2Cnull%2C1%2Cnull%2C%5Bnull%2Cnull%2C4%2Cnull%2C400%2C4%2C7%2Cfalse%5D%2Cfalse%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cfalse%2Cfalse%2C1%5D%2C%5B1%2C%5B%5D%2Cnull%2Ctrue%2Ctrue%2C45%2Cnull%2Cnull%2C%5B%5D%2C%221058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190%22%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B%5B2700003%2C2700004%2C2700005%2C2700023%2C2700024%2C2700028%2C5701457%2C5701461%2C5701504%2C5701508%2C5701943%2C5701975%2C5702015%2C5702039%2C5702047%2C5702079%2C5702171%2C5702340%2C5702515%2C5702576%2C5703399%2C5703451%2C5703639%2C5703701%2C5703831%2C5704108%2C5704277%2C5704457%5D%5D%5D%5D%2C%5B%22trix_2018.30-Tue_RC04%22%5D%2Cnull%2C1%2C2%2C%5B1533694458056000%2C0%2C0%2C1533694458058000%2C1533694458058000%2C1533694458058000%2C1533694458058000%2C1533694458058000%2Cnull%2C1533694458064000%2C1533694458546000%2C1533694458583000%5D%2Cnull%2Cnull%2C%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C8192%2C8%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5Bnull%2Cnull%2Ctrue%2Cnull%2Cnull%2Cnull%2Cfalse%2Ctrue%2C%5B1%2C%5B3300118%2C3300131%2C3300161%2C3313321%2C3313368%2C3314088%5D%5D%5D%5D%5D"
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 204,
+          "statusText": "",
+          "httpVersion": "http/2.0+quic/39",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 08 Aug 2018 03:15:53 GMT"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "status",
+              "value": "204"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "base-uri 'self';object-src 'self';script-src 'strict-dynamic' 'unsafe-eval' 'unsafe-inline' https: 'nonce-6487S3UqcaqvmK4PdztAe+EuVHQ';worker-src 'self';report-uri https://docs.google.com/spreadsheets/cspreport"
+            },
+            {
+              "name": "set-cookie",
+              "value": "SIDCC=AGIhQKQHGYuu7iCLk24TzHSCFr5q-wu57Ff95Cw1aP1JkqAWE0x-oVuziwjLrsD0IPA6PSHgSg; expires=Tue, 06-Nov-2018 03:15:53 GMT; path=/; domain=.google.com; priority=high"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=2592000; v=\"44,43,39,35\""
+            },
+            {
+              "name": "expires",
+              "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "SIDCC",
+              "value": "AGIhQKQHGYuu7iCLk24TzHSCFr5q-wu57Ff95Cw1aP1JkqAWE0x-oVuziwjLrsD0IPA6PSHgSg",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2018-11-06T03:15:53.000Z",
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 0,
+            "mimeType": "text/plain",
+            "text": ""
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 335
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.860575999962166,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.6779999999999999,
+          "wait": 192.76599998277425,
+          "receive": 13.609000016003847,
+          "_blocked_queueing": 0.5759999621659517
+        },
+        "serverIPAddress": "[2607:f8b0:4008:811::200e]"
+      },
+      {
+        "startedDateTime": "2018-08-08T03:15:52.943Z",
+        "time": 119.6365818403121,
+        "request": {
+          "method": "OPTIONS",
+          "url": "https://0.docs.google.com/spreadsheets/d/1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190/bind?id=1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190&sid=ffb3183aa9f71d5&token=AC4w5Vj5WolrQejQgKW9_nfBJttPGTJqsw%3A1533694458471&includes_info_params=true&VER=8&lsq=1533693843588&u=01910696590081415300&c=1&w=1&gsi=0&ssfi=3692&smv=45&cimpl=1&RID=rpc&SID=2439843070949D1&CI=0&AID=257&TYPE=xmlhttp&zx=4nr590pymg48&t=1",
+          "httpVersion": "http/2.0+quic/39",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/spreadsheets/d/1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190/bind?id=1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190&sid=ffb3183aa9f71d5&token=AC4w5Vj5WolrQejQgKW9_nfBJttPGTJqsw%3A1533694458471&includes_info_params=true&VER=8&lsq=1533693843588&u=01910696590081415300&c=1&w=1&gsi=0&ssfi=3692&smv=45&cimpl=1&RID=rpc&SID=2439843070949D1&CI=0&AID=257&TYPE=xmlhttp&zx=4nr590pymg48&t=1"
+            },
+            {
+              "name": "access-control-request-method",
+              "value": "GET"
+            },
+            {
+              "name": "origin",
+              "value": "https://docs.google.com"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": ":authority",
+              "value": "0.docs.google.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "x-client-data",
+              "value": "CJa2yQEIo7bJAQjBtskBCKmdygEI2J3KAQioo8oB"
+            },
+            {
+              "name": ":method",
+              "value": "OPTIONS"
+            },
+            {
+              "name": "access-control-request-headers",
+              "value": "x-same-domain"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "id",
+              "value": "1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190"
+            },
+            {
+              "name": "sid",
+              "value": "ffb3183aa9f71d5"
+            },
+            {
+              "name": "token",
+              "value": "AC4w5Vj5WolrQejQgKW9_nfBJttPGTJqsw%3A1533694458471"
+            },
+            {
+              "name": "includes_info_params",
+              "value": "true"
+            },
+            {
+              "name": "VER",
+              "value": "8"
+            },
+            {
+              "name": "lsq",
+              "value": "1533693843588"
+            },
+            {
+              "name": "u",
+              "value": "01910696590081415300"
+            },
+            {
+              "name": "c",
+              "value": "1"
+            },
+            {
+              "name": "w",
+              "value": "1"
+            },
+            {
+              "name": "gsi",
+              "value": "0"
+            },
+            {
+              "name": "ssfi",
+              "value": "3692"
+            },
+            {
+              "name": "smv",
+              "value": "45"
+            },
+            {
+              "name": "cimpl",
+              "value": "1"
+            },
+            {
+              "name": "RID",
+              "value": "rpc"
+            },
+            {
+              "name": "SID",
+              "value": "2439843070949D1"
+            },
+            {
+              "name": "CI",
+              "value": "0"
+            },
+            {
+              "name": "AID",
+              "value": "257"
+            },
+            {
+              "name": "TYPE",
+              "value": "xmlhttp"
+            },
+            {
+              "name": "zx",
+              "value": "4nr590pymg48"
+            },
+            {
+              "name": "t",
+              "value": "1"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0+quic/39",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Wed, 08 Aug 2018 03:15:53 GMT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=2592000; v=\"44,43,39,35\""
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET,OPTIONS"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://docs.google.com"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "name": "set-cookie",
+              "value": "S=apps-spreadsheets=sFw96DUeb3fpOrOIE0rwmgkRvBhGJ9iy; Domain=.docs.google.com; Expires=Wed, 08-Aug-2018 04:15:53 GMT; Path=/spreadsheets/d/1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190; Secure; HttpOnly; Priority=LOW"
+            },
+            {
+              "name": "access-control-allow-headers",
+              "value": "x-same-domain"
+            },
+            {
+              "name": "expires",
+              "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "S",
+              "value": "apps-spreadsheets=sFw96DUeb3fpOrOIE0rwmgkRvBhGJ9iy",
+              "path": "/spreadsheets/d/1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190",
+              "domain": ".docs.google.com",
+              "expires": "2018-08-08T04:15:53.000Z",
+              "httpOnly": true,
+              "secure": true
+            }
+          ],
+          "content": {
+            "size": 0,
+            "mimeType": "text/plain",
+            "text": ""
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 525
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.8165820000078527,
+          "dns": 0.008000000000000007,
+          "ssl": 80.315,
+          "connect": 80.756,
+          "send": 0,
+          "wait": 15.428999936833975,
+          "receive": 20.626999903470278,
+          "_blocked_queueing": 0.582000007852912
+        },
+        "serverIPAddress": "[2607:f8b0:400c:c02::bd]"
+      },
+      {
+        "startedDateTime": "2018-08-08T03:15:53.063Z",
+        "time": 56228.059405869804,
+        "request": {
+          "method": "GET",
+          "url": "https://0.docs.google.com/spreadsheets/d/1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190/bind?id=1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190&sid=ffb3183aa9f71d5&token=AC4w5Vj5WolrQejQgKW9_nfBJttPGTJqsw%3A1533694458471&includes_info_params=true&VER=8&lsq=1533693843588&u=01910696590081415300&c=1&w=1&gsi=0&ssfi=3692&smv=45&cimpl=1&RID=rpc&SID=2439843070949D1&CI=0&AID=257&TYPE=xmlhttp&zx=4nr590pymg48&t=1",
+          "httpVersion": "http/2.0+quic/39",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/spreadsheets/d/1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190/bind?id=1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190&sid=ffb3183aa9f71d5&token=AC4w5Vj5WolrQejQgKW9_nfBJttPGTJqsw%3A1533694458471&includes_info_params=true&VER=8&lsq=1533693843588&u=01910696590081415300&c=1&w=1&gsi=0&ssfi=3692&smv=45&cimpl=1&RID=rpc&SID=2439843070949D1&CI=0&AID=257&TYPE=xmlhttp&zx=4nr590pymg48&t=1"
+            },
+            {
+              "name": "x-same-domain",
+              "value": "1"
+            },
+            {
+              "name": "origin",
+              "value": "https://docs.google.com"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "referer",
+              "value": "https://docs.google.com/spreadsheets/d/1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190/edit"
+            },
+            {
+              "name": ":authority",
+              "value": "0.docs.google.com"
+            },
+            {
+              "name": "cookie",
+              "value": "S=apps-spreadsheets=pLi7jFsLXLVQjRRzWpZRcCAyepPzoKf6; HSID=AMx5uMiSmHNhivofH; SSID=AWQ5-Yol4ZMNddRsH; APISID=hFkXhFXgGXRE6FDF/Av4bH70NXDYCLQHJJ; SAPISID=TTpLHEt0ayMshhNw/Ayy-9hkG22nufh0V0; SID=UQarxDlJnF_RgAyERPqdUscJuOGPmIhA6OhCH7ypJDd4nMeeMe_y03fuKNTzwWqORDxubA.; NID=136=it4212CYV8VemEEa3ShaRGHrVTT3EX9mcPSG4QagYphES1ASh_W4ZUUengX14_K24H0tUN34ifro7yIFnDJpgFL-jgVUBBhzMjR89pXUOxm6KzlViJZxk4HXxiGPyMlGshxrx_rcNiElF1NeSpWL2Vbge01hiPquzCLzAGk7fGkHGiD916b47pehrRBv4pxpzwmgqL9j6gepVCK_OBQ-2UAYTqkZGHgk; S=explorer=WJWW3NbmkJ1oGT5E4Gy_Rws2RQCvZ1ug; S=maestro=CApuJQb1TlbFQNv7-5HKvlvDcw90QRN_; 1P_JAR=2018-8-8-3; SIDCC=AGIhQKRGXU1JoxDzyJHi0J1piVbhEggvdlR0cDiKH2SEIobkYjgOXsuxTQ64IZCzFtS0NN4Eow"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "x-client-data",
+              "value": "CJa2yQEIo7bJAQjBtskBCKmdygEI2J3KAQioo8oB"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "id",
+              "value": "1058vzThrcqtQpBxFnF9IJT10YU_EC8eALiXSFdvW190"
+            },
+            {
+              "name": "sid",
+              "value": "ffb3183aa9f71d5"
+            },
+            {
+              "name": "token",
+              "value": "AC4w5Vj5WolrQejQgKW9_nfBJttPGTJqsw%3A1533694458471"
+            },
+            {
+              "name": "includes_info_params",
+              "value": "true"
+            },
+            {
+              "name": "VER",
+              "value": "8"
+            },
+            {
+              "name": "lsq",
+              "value": "1533693843588"
+            },
+            {
+              "name": "u",
+              "value": "01910696590081415300"
+            },
+            {
+              "name": "c",
+              "value": "1"
+            },
+            {
+              "name": "w",
+              "value": "1"
+            },
+            {
+              "name": "gsi",
+              "value": "0"
+            },
+            {
+              "name": "ssfi",
+              "value": "3692"
+            },
+            {
+              "name": "smv",
+              "value": "45"
+            },
+            {
+              "name": "cimpl",
+              "value": "1"
+            },
+            {
+              "name": "RID",
+              "value": "rpc"
+            },
+            {
+              "name": "SID",
+              "value": "2439843070949D1"
+            },
+            {
+              "name": "CI",
+              "value": "0"
+            },
+            {
+              "name": "AID",
+              "value": "257"
+            },
+            {
+              "name": "TYPE",
+              "value": "xmlhttp"
+            },
+            {
+              "name": "zx",
+              "value": "4nr590pymg48"
+            },
+            {
+              "name": "t",
+              "value": "1"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "S",
+              "value": "apps-spreadsheets=pLi7jFsLXLVQjRRzWpZRcCAyepPzoKf6",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "HSID",
+              "value": "AMx5uMiSmHNhivofH",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SSID",
+              "value": "AWQ5-Yol4ZMNddRsH",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "APISID",
+              "value": "hFkXhFXgGXRE6FDF/Av4bH70NXDYCLQHJJ",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SAPISID",
+              "value": "TTpLHEt0ayMshhNw/Ayy-9hkG22nufh0V0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SID",
+              "value": "UQarxDlJnF_RgAyERPqdUscJuOGPmIhA6OhCH7ypJDd4nMeeMe_y03fuKNTzwWqORDxubA.",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "NID",
+              "value": "136=it4212CYV8VemEEa3ShaRGHrVTT3EX9mcPSG4QagYphES1ASh_W4ZUUengX14_K24H0tUN34ifro7yIFnDJpgFL-jgVUBBhzMjR89pXUOxm6KzlViJZxk4HXxiGPyMlGshxrx_rcNiElF1NeSpWL2Vbge01hiPquzCLzAGk7fGkHGiD916b47pehrRBv4pxpzwmgqL9j6gepVCK_OBQ-2UAYTqkZGHgk",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "S",
+              "value": "explorer=WJWW3NbmkJ1oGT5E4Gy_Rws2RQCvZ1ug",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "S",
+              "value": "maestro=CApuJQb1TlbFQNv7-5HKvlvDcw90QRN_",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "1P_JAR",
+              "value": "2018-8-8-3",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SIDCC",
+              "value": "AGIhQKRGXU1JoxDzyJHi0J1piVbhEggvdlR0cDiKH2SEIobkYjgOXsuxTQ64IZCzFtS0NN4Eow",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0+quic/39",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 08 Aug 2018 03:15:53 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://docs.google.com"
+            },
+            {
+              "name": "access-control-expose-headers",
+              "value": "Cache-Control,Content-Length,Content-Type,Date,Expires,Pragma,Server,Transfer-Encoding"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "name": "set-cookie",
+              "value": "SIDCC=AGIhQKRcjHy2ptc8gEm2p35dZkP2CU7D236NEBPccEo-lMxFodEPczN0LR6aAbbMdEUJ3XLucA; expires=Tue, 06-Nov-2018 03:15:53 GMT; path=/; domain=.google.com; priority=high"
+            },
+            {
+              "name": "x-robots-tag",
+              "value": "noindex, nofollow, nosnippet"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=2592000; v=\"44,43,39,35\""
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "expires",
+              "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "SIDCC",
+              "value": "AGIhQKRcjHy2ptc8gEm2p35dZkP2CU7D236NEBPccEo-lMxFodEPczN0LR6aAbbMdEUJ3XLucA",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2018-11-06T03:15:53.000Z",
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 179,
+            "mimeType": "text/plain",
+            "text": "19\n[[258,[\"noop\"]\n]\n]\n109\n[[259,[1,1533693843589,{\"THUMBNAIL\":true,\"CONSISTENCY_MARKER\":true,\"INDEXABLE_TEXT_MODEL_REVISION\":true}]]\n]\n19\n[[260,[\"noop\"]\n]\n]\n19\n[[261,[\"noop\"]\n]\n]\n"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 513
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.5444059998318553,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.3619999999999999,
+          "wait": 201.19200002723932,
+          "receive": 56024.96099984273,
+          "_blocked_queueing": 0.4059998318552971
+        },
+        "serverIPAddress": "[2607:f8b0:400c:c02::bd]"
+      }
+    ]
+  }
+}

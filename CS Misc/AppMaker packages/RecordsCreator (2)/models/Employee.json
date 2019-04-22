@@ -1,0 +1,108 @@
+{
+  "dataSources": [{
+    "key": "MSrS8eNmLFI5qnxc9TSqh4P1BxU2qPrx_default",
+    "modelKey": "MSrS8eNmLFI5qnxc9TSqh4P1BxU2qPrx",
+    "name": "Employee",
+    "pageSize": 100,
+    "type": "QUERY"
+  }],
+  "defaultDataSourceKey": "MSrS8eNmLFI5qnxc9TSqh4P1BxU2qPrx_default",
+  "eventPermissions": [
+    {
+      "name": "ON_CREATE",
+      "type": "inherited"
+    },
+    {
+      "name": "ON_LOAD",
+      "type": "inherited"
+    },
+    {
+      "name": "ON_SAVE",
+      "type": "inherited"
+    },
+    {
+      "name": "ON_DELETE",
+      "type": "inherited"
+    }
+  ],
+  "events": [],
+  "fields": [
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "Name",
+      "key": "9SBjbNgZTXQ6Elod",
+      "minLength": 0,
+      "name": "Name",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notIn"
+      ],
+      "columnName": "Age",
+      "integer": false,
+      "key": "yi85PDJV9qTin6Dw",
+      "name": "Age",
+      "required": false,
+      "type": "Number"
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "City",
+      "key": "9MCd9S7Xa30Cn9XJ",
+      "minLength": 0,
+      "name": "City",
+      "required": false,
+      "type": "String"
+    }
+  ],
+  "key": "MSrS8eNmLFI5qnxc9TSqh4P1BxU2qPrx",
+  "modelPermission": {
+    "name": "model permission",
+    "permissions": [
+      {"type": "nobody"},
+      {
+        "groupKeys": ["Admins"],
+        "type": "groups"
+      }
+    ],
+    "type": "compound"
+  },
+  "name": "Employee",
+  "type": "BRIX",
+  "userIdFieldType": "USER_ID"
+}

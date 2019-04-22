@@ -1,0 +1,7 @@
+{
+  "executionMode": "USER",
+  "globalCss": ".app-People-TextBox1,\n.app-People-TextBox2,\n.app-People-TextBox3,\n.app-People-TextBox4,\n.app-People-TextBox5,\n.app-People-TextBox6,\n{\n  color: blue;\n  border: 1px solid green ;\n  \n}\n\n",
+  "groups": [],
+  "initialViewKey": "WUQtOvH9awk8YYBHh53vGblXXPBWZqYh",
+  "templateKey": "sqlTemplate.blank"
+}

@@ -1,0 +1,422 @@
+{
+  "class": "Panel",
+  "customPropertyDescriptions": [{
+    "category": "Custom Properties",
+    "deprecated": false,
+    "designTime": false,
+    "experimental": false,
+    "hidden": false,
+    "key": "tdDZTRzz",
+    "name": "DatasourceLength",
+    "persisted": true,
+    "readonly": false,
+    "type": "Number"
+  }],
+  "customPropertyValues": {
+    "name": "CustomProperties",
+    "properties": [{
+      "name": "tdDZTRzz",
+      "value": {
+        "isNull": true,
+        "type": "Number"
+      }
+    }],
+    "type": "PropertyMap[CustomProperties]"
+  },
+  "key": "pKJFM8tx2yc2YA8qffO1lYZmTzKZcUkJ",
+  "permission": {
+    "name": "canRead",
+    "type": "compoundEveryone"
+  },
+  "propList": [
+    {
+      "k": "styleMap",
+      "v": {
+        "name": "styleMap",
+        "properties": [],
+        "type": "PropertyMap[styleMap]"
+      }
+    },
+    {
+      "k": "width",
+      "v": 960
+    },
+    {
+      "k": "height",
+      "v": 960
+    },
+    {
+      "k": "name",
+      "v": "RelationsPage"
+    },
+    {
+      "k": "variant",
+      "v": "Background"
+    },
+    {
+      "k": "top",
+      "v": 4
+    },
+    {
+      "k": "left",
+      "v": 4
+    },
+    {
+      "k": "bindings",
+      "v": {
+        "list": [{
+          "sourceExpression": "_dataSource",
+          "targetExpression": "@datasources.FXovqvoZXYqpt9jieART5ysxstuIChk4_default",
+          "targetLiteralExpression": "@datasources.Cases",
+          "type": "BindingInfo"
+        }],
+        "type": "List[BindingInfo]"
+      }
+    },
+    {
+      "k": "children",
+      "v": {
+        "list": [
+          {
+            "class": "Dropdown",
+            "key": "0_1831541211",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 150
+              },
+              {
+                "k": "height",
+                "v": 32
+              },
+              {
+                "k": "name",
+                "v": "Dropdown1"
+              },
+              {
+                "k": "left",
+                "v": 36
+              },
+              {
+                "k": "top",
+                "v": 38
+              },
+              {
+                "k": "autoHeight",
+                "v": true
+              },
+              {
+                "k": "right",
+                "v": 774
+              },
+              {
+                "k": "bottom",
+                "v": 890
+              },
+              {
+                "k": "bindings",
+                "v": {
+                  "list": [
+                    {
+                      "sourceExpression": "options",
+                      "targetExpression": "@models.MSrS8eNmLFI5qnxc9TSqh4P1BxU2qPrx.datasources.MSrS8eNmLFI5qnxc9TSqh4P1BxU2qPrx_default.items",
+                      "targetLiteralExpression": "@models.Employee.datasources.Employee.items",
+                      "type": "BindingInfo"
+                    },
+                    {
+                      "sourceExpression": "value",
+                      "targetExpression": "@datasources.FXovqvoZXYqpt9jieART5ysxstuIChk4_default.query.filters._ILoCImwkQ0egwi0vERxauBdN3mg8MUg9.EQ",
+                      "targetLiteralExpression": "@datasources.Cases.query.filters.relEmployee._equals",
+                      "type": "BindingInfo"
+                    }
+                  ],
+                  "type": "List[BindingInfo]"
+                }
+              },
+              {
+                "k": "onValueEdit",
+                "v": "widget.datasource.load();"
+              }
+            ],
+            "type": "ComponentInfo"
+          },
+          {
+            "class": "TextAreaComponent",
+            "key": "0_292323013",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 160
+              },
+              {
+                "k": "height",
+                "v": 33
+              },
+              {
+                "k": "name",
+                "v": "TextArea1"
+              },
+              {
+                "k": "left",
+                "v": 520
+              },
+              {
+                "k": "top",
+                "v": 38
+              },
+              {
+                "k": "right",
+                "v": 280
+              },
+              {
+                "k": "bottom",
+                "v": 889
+              },
+              {
+                "k": "label",
+                "v": "Datasource Length"
+              },
+              {
+                "k": "bindings",
+                "v": {
+                  "list": [{
+                    "sourceExpression": "value",
+                    "targetExpression": "@properties.tdDZTRzz",
+                    "targetLiteralExpression": "@properties.DatasourceLength",
+                    "type": "BindingInfo"
+                  }],
+                  "type": "List[BindingInfo]"
+                }
+              }
+            ],
+            "type": "ComponentInfo"
+          },
+          {
+            "class": "SimpleButton",
+            "key": "0_1436569616",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 94
+              },
+              {
+                "k": "height",
+                "v": 35
+              },
+              {
+                "k": "name",
+                "v": "Button1"
+              },
+              {
+                "k": "left",
+                "v": 730
+              },
+              {
+                "k": "top",
+                "v": 46
+              },
+              {
+                "k": "autoWidth",
+                "v": true
+              },
+              {
+                "k": "autoHeight",
+                "v": true
+              },
+              {
+                "k": "right",
+                "v": 136
+              },
+              {
+                "k": "bottom",
+                "v": 879
+              },
+              {
+                "k": "action",
+                "v": "deleteRecords();"
+              },
+              {
+                "k": "constrain_left",
+                "v": true
+              },
+              {
+                "k": "constrain_right",
+                "v": false
+              },
+              {
+                "k": "constrain_width",
+                "v": true
+              },
+              {
+                "k": "constrain_minWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_maxWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_top",
+                "v": true
+              },
+              {
+                "k": "constrain_bottom",
+                "v": false
+              },
+              {
+                "k": "constrain_height",
+                "v": true
+              },
+              {
+                "k": "constrain_minHeight",
+                "v": false
+              },
+              {
+                "k": "constrain_maxHeight",
+                "v": false
+              },
+              {
+                "k": "text",
+                "v": "Delete"
+              }
+            ],
+            "type": "ComponentInfo"
+          },
+          {
+            "class": "SimpleButton",
+            "key": "0_98242472",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 90
+              },
+              {
+                "k": "height",
+                "v": 35
+              },
+              {
+                "k": "name",
+                "v": "Button2"
+              },
+              {
+                "k": "left",
+                "v": 830
+              },
+              {
+                "k": "top",
+                "v": 46
+              },
+              {
+                "k": "autoWidth",
+                "v": true
+              },
+              {
+                "k": "autoHeight",
+                "v": true
+              },
+              {
+                "k": "right",
+                "v": 40
+              },
+              {
+                "k": "bottom",
+                "v": 879
+              },
+              {
+                "k": "action",
+                "v": "widget.datasource.load();"
+              },
+              {
+                "k": "constrain_left",
+                "v": true
+              },
+              {
+                "k": "constrain_right",
+                "v": false
+              },
+              {
+                "k": "constrain_width",
+                "v": true
+              },
+              {
+                "k": "constrain_minWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_maxWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_top",
+                "v": true
+              },
+              {
+                "k": "constrain_bottom",
+                "v": false
+              },
+              {
+                "k": "constrain_height",
+                "v": true
+              },
+              {
+                "k": "constrain_minHeight",
+                "v": false
+              },
+              {
+                "k": "constrain_maxHeight",
+                "v": false
+              },
+              {
+                "k": "text",
+                "v": "Reload"
+              }
+            ],
+            "type": "ComponentInfo"
+          }
+        ],
+        "type": "List[ComponentInfo]"
+      }
+    },
+    {
+      "k": "onDataLoad",
+      "v": "getCasesLength();"
+    },
+    {
+      "k": "onLoad",
+      "v": "increasePageSize();"
+    }
+  ],
+  "type": "ComponentInfo"
+}

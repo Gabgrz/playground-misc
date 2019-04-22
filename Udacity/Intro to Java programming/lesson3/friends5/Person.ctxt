@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Person
+comment0.text=\r\n\ Models\ a\ person\ who\ makes\ and\ unmakes\ friends\r\n\r\n
+comment1.params=name\ pictureName\ xCoord\ yCoord
+comment1.target=Person(java.lang.String,\ java.lang.String,\ int,\ int)
+comment2.params=friend
+comment2.target=void\ addFriend(Person)
+comment3.params=nonFriend
+comment3.target=void\ unfriend(Person)
+comment4.params=
+comment4.target=java.lang.String\ getFriends()
+numComments=5

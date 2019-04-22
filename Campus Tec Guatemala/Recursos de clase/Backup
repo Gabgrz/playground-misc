@@ -1,0 +1,12 @@
+        public Tarea recuperarPorId(Connection conexion, int id_tarea) throws SQLException{
+            Tarea t = null;
+            try{
+                PreparedStatement consulta; 
+                consulta = conexion.prepareStatement("SELECT titulo, descripcion, nivel_de_prioridad FROM tabla WHERE id_tarea = ?");
+                consulta.setInt(1,id_tarea);
+            }
+            catch(SQLException ex){
+                throw new SQLException(ex);
+            }
+            return t;
+        }

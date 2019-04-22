@@ -1,0 +1,373 @@
+{
+  "class": "Panel",
+  "customPropertyDescriptions": [{
+    "category": "Custom Properties",
+    "deprecated": false,
+    "designTime": false,
+    "experimental": false,
+    "hidden": false,
+    "key": "epTDB7PT",
+    "name": "Url",
+    "persisted": true,
+    "readonly": false,
+    "type": "String"
+  }],
+  "customPropertyValues": {
+    "name": "CustomProperties",
+    "properties": [{
+      "name": "epTDB7PT",
+      "value": {
+        "isNull": true,
+        "type": "String"
+      }
+    }],
+    "type": "PropertyMap[CustomProperties]"
+  },
+  "key": "pgR5NSyb7XvixvUqwKNOhOd51ddKWGnu",
+  "permission": {
+    "name": "canRead",
+    "type": "compoundEveryone"
+  },
+  "propList": [
+    {
+      "k": "styleMap",
+      "v": {
+        "name": "styleMap",
+        "properties": [],
+        "type": "PropertyMap[styleMap]"
+      }
+    },
+    {
+      "k": "width",
+      "v": 1300
+    },
+    {
+      "k": "height",
+      "v": 1400
+    },
+    {
+      "k": "name",
+      "v": "Sheet"
+    },
+    {
+      "k": "variant",
+      "v": "Background"
+    },
+    {
+      "k": "top",
+      "v": 4
+    },
+    {
+      "k": "left",
+      "v": 4
+    },
+    {
+      "k": "children",
+      "v": {
+        "list": [{
+          "class": "Panel",
+          "key": "0_439797738",
+          "propList": [
+            {
+              "k": "styleMap",
+              "v": {
+                "name": "styleMap",
+                "properties": [],
+                "type": "PropertyMap[styleMap]"
+              }
+            },
+            {
+              "k": "width",
+              "v": 1425
+            },
+            {
+              "k": "height",
+              "v": 940
+            },
+            {
+              "k": "layout",
+              "v": "vertical"
+            },
+            {
+              "k": "name",
+              "v": "Container"
+            },
+            {
+              "k": "left",
+              "v": 10
+            },
+            {
+              "k": "top",
+              "v": 10
+            },
+            {
+              "k": "right",
+              "v": 65
+            },
+            {
+              "k": "bottom",
+              "v": 10
+            },
+            {
+              "k": "autoWidth",
+              "v": false
+            },
+            {
+              "k": "constrain_right",
+              "v": true
+            },
+            {
+              "k": "constrain_width",
+              "v": false
+            },
+            {
+              "k": "autoHeight",
+              "v": false
+            },
+            {
+              "k": "constrain_bottom",
+              "v": true
+            },
+            {
+              "k": "constrain_height",
+              "v": false
+            },
+            {
+              "k": "children",
+              "v": {
+                "list": [
+                  {
+                    "class": "Panel",
+                    "key": "0_420446652",
+                    "propList": [
+                      {
+                        "k": "styleMap",
+                        "v": {
+                          "name": "styleMap",
+                          "properties": [],
+                          "type": "PropertyMap[styleMap]"
+                        }
+                      },
+                      {
+                        "k": "width",
+                        "v": 400
+                      },
+                      {
+                        "k": "height",
+                        "v": 200
+                      },
+                      {
+                        "k": "layout",
+                        "v": "horizontal"
+                      },
+                      {
+                        "k": "name",
+                        "v": "Panel1"
+                      },
+                      {
+                        "k": "left",
+                        "v": 0
+                      },
+                      {
+                        "k": "top",
+                        "v": 0
+                      },
+                      {
+                        "k": "autoWidth",
+                        "v": true
+                      },
+                      {
+                        "k": "align",
+                        "v": "stretch"
+                      },
+                      {
+                        "k": "autoHeight",
+                        "v": true
+                      },
+                      {
+                        "k": "children",
+                        "v": {
+                          "list": [{
+                            "class": "SimpleButton",
+                            "key": "0_1378693336",
+                            "propList": [
+                              {
+                                "k": "styleMap",
+                                "v": {
+                                  "name": "styleMap",
+                                  "properties": [{
+                                    "name": "margin-bottom",
+                                    "value": "0px"
+                                  }],
+                                  "type": "PropertyMap[styleMap]"
+                                }
+                              },
+                              {
+                                "k": "width",
+                                "v": 92
+                              },
+                              {
+                                "k": "height",
+                                "v": 36
+                              },
+                              {
+                                "k": "name",
+                                "v": "Button1"
+                              },
+                              {
+                                "k": "left",
+                                "v": 566
+                              },
+                              {
+                                "k": "top",
+                                "v": 16
+                              },
+                              {
+                                "k": "autoWidth",
+                                "v": true
+                              },
+                              {
+                                "k": "autoHeight",
+                                "v": true
+                              },
+                              {
+                                "k": "right",
+                                "v": 732
+                              },
+                              {
+                                "k": "bottom",
+                                "v": 1354
+                              },
+                              {
+                                "k": "text",
+                                "v": "Add Cases"
+                              },
+                              {
+                                "k": "action",
+                                "v": "app.datasources.Employee.load();\napp.datasources.Cases.load();\naddRecordsFromSheetValues();\ngetCasesLength();\nonSheetEdit();"
+                              }
+                            ],
+                            "type": "ComponentInfo"
+                          }],
+                          "type": "List[ComponentInfo]"
+                        }
+                      },
+                      {
+                        "k": "alignChildren",
+                        "v": "start"
+                      },
+                      {
+                        "k": "justify",
+                        "v": "end"
+                      }
+                    ],
+                    "type": "ComponentInfo"
+                  },
+                  {
+                    "class": "HtmlArea",
+                    "key": "0_117631392",
+                    "propList": [
+                      {
+                        "k": "styleMap",
+                        "v": {
+                          "name": "styleMap",
+                          "properties": [],
+                          "type": "PropertyMap[styleMap]"
+                        }
+                      },
+                      {
+                        "k": "html",
+                        "v": ""
+                      },
+                      {
+                        "k": "width",
+                        "v": 200
+                      },
+                      {
+                        "k": "height",
+                        "v": 100
+                      },
+                      {
+                        "k": "name",
+                        "v": "Html1"
+                      },
+                      {
+                        "k": "left",
+                        "v": 0
+                      },
+                      {
+                        "k": "top",
+                        "v": 0
+                      },
+                      {
+                        "k": "autoWidth",
+                        "v": true
+                      },
+                      {
+                        "k": "autoHeight",
+                        "v": true
+                      },
+                      {
+                        "k": "right",
+                        "v": 0
+                      },
+                      {
+                        "k": "bottom",
+                        "v": 0
+                      },
+                      {
+                        "k": "align",
+                        "v": "stretch"
+                      },
+                      {
+                        "k": "grow",
+                        "v": 1
+                      },
+                      {
+                        "k": "bindings",
+                        "v": {
+                          "list": [{
+                            "sourceExpression": "html",
+                            "targetExpression": "getIframeHtml(@properties.epTDB7PT)",
+                            "targetLiteralExpression": "getIframeHtml(@properties.Url)",
+                            "type": "BindingInfo"
+                          }],
+                          "type": "List[BindingInfo]"
+                        }
+                      },
+                      {
+                        "k": "allowUnsafeHtml",
+                        "v": true
+                      },
+                      {
+                        "k": "onLoad",
+                        "v": "onPageAttach();"
+                      },
+                      {
+                        "k": "editorHidden",
+                        "v": false
+                      }
+                    ],
+                    "type": "ComponentInfo"
+                  }
+                ],
+                "type": "List[ComponentInfo]"
+              }
+            },
+            {
+              "k": "editorHidden",
+              "v": false
+            }
+          ],
+          "type": "ComponentInfo"
+        }],
+        "type": "List[ComponentInfo]"
+      }
+    },
+    {
+      "k": "pageCss",
+      "v": ".app-Sheet-Button1 {\n  background-color: yellow;\n}\n\n"
+    }
+  ],
+  "type": "ComponentInfo"
+}

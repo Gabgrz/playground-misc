@@ -1,0 +1,66 @@
+{
+  "dataSources": [{
+    "key": "GpRYpxLiDferp3phlQEhFDnAoVs5n58w_default",
+    "modelKey": "GpRYpxLiDferp3phlQEhFDnAoVs5n58w",
+    "name": "Times",
+    "pageSize": 100,
+    "type": "QUERY"
+  }],
+  "defaultDataSourceKey": "GpRYpxLiDferp3phlQEhFDnAoVs5n58w_default",
+  "eventPermissions": [
+    {
+      "name": "ON_CREATE",
+      "type": "inherited"
+    },
+    {
+      "name": "ON_LOAD",
+      "type": "inherited"
+    },
+    {
+      "name": "ON_SAVE",
+      "type": "inherited"
+    },
+    {
+      "name": "ON_DELETE",
+      "type": "inherited"
+    }
+  ],
+  "events": [],
+  "fields": [{
+    "allowedFilterOperators": [
+      "contains",
+      "eq",
+      "gt",
+      "gte",
+      "in",
+      "lt",
+      "lte",
+      "ne",
+      "notContains",
+      "notIn",
+      "notStartsWith",
+      "startsWith"
+    ],
+    "columnName": "Time",
+    "key": "f6gGRnFoqc5zzuJH",
+    "minLength": 0,
+    "name": "Time",
+    "required": false,
+    "type": "String"
+  }],
+  "key": "GpRYpxLiDferp3phlQEhFDnAoVs5n58w",
+  "modelPermission": {
+    "name": "model permission",
+    "permissions": [
+      {"type": "nobody"},
+      {
+        "groupKeys": ["Admins"],
+        "type": "groups"
+      }
+    ],
+    "type": "compound"
+  },
+  "name": "Times",
+  "type": "BRIX",
+  "userIdFieldType": "USER_ID"
+}

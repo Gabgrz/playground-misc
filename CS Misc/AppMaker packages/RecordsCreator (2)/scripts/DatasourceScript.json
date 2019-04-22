@@ -1,0 +1,6 @@
+{
+  "content": "var myQuery \u003d app.models.Cases.newQuery();",
+  "key": "Qi1ej5nhHklcGsXpBD29u47nsVE1sj5v",
+  "name": "DatasourceScript",
+  "type": "SERVER"
+}

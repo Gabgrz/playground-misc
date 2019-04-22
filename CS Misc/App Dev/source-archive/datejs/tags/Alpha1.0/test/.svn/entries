@@ -1,0 +1,101 @@
+10
+
+dir
+201
+http://datejs.googlecode.com/svn/tags/Alpha1.0/test
+http://datejs.googlecode.com/svn
+
+
+
+2007-11-13T12:17:03.800772Z
+26
+geoff@coolite.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1386df6d-df38-0410-ade5-638ece4065a8
+
+scripts
+dir
+
+core
+dir
+
+index.html
+file
+
+
+
+
+2016-01-10T01:14:49.436152Z
+53c4cba7bae5726c84207bf300efb3d6
+2007-11-12T11:42:40.157449Z
+25
+geoff@coolite.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4328
+
+relative
+dir
+
+partial
+dir
+
+date
+dir
+
+date_and_time
+dir
+
+time
+dir
+
+culture_info
+dir
+
+date2
+dir
+
+parseExact
+dir
+
+performance
+dir
+
+styles
+dir
+
+images
+dir
+

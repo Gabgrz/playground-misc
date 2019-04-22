@@ -1,0 +1,17 @@
+{
+  "databaseId": "BRIX",
+  "key": "A6KOZLjYqWYwlRkeJcVdvrIcNUkI6cdz",
+  "owner": "NONE",
+  "permission": {
+    "name": "CanModifyAssociations",
+    "type": "inherited"
+  },
+  "sourceArity": "MANY",
+  "sourceModelKey": "qlHHnPtFlksvQ7gKtUX7Fk9vjHpn9orn",
+  "sourceName": "relVendors",
+  "sourceSortAscending": true,
+  "targetArity": "MANY",
+  "targetModelKey": "obofYD4v7q8KkXT9hC3DXQlOzyg4y4Ul",
+  "targetName": "relLanguages",
+  "targetSortAscending": true
+}

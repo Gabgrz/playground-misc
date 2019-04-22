@@ -1,0 +1,6 @@
+{
+  "content": "var props \u003d app.pages.SheetValues.properties;\nvar props2 \u003d app.pages.RelationsPage.properties;\n\n\nfunction createRecord(){\n\n  google.script.run.createRecord();\n\n  \n}\n\n\nfunction createRecordList(){\n\n  google.script.run.createRecordsLoop();\n\n}\n\n\nfunction createRelatedCases(){\n  \n   google.script.run.createRelatedCases();\n  \n}\n\nfunction createRelatedRecordsWithLoop(){\n\n   google.script.run.createRelatedRecordsWithLoop();\n}\n\nfunction getFirstKey(){\n     google.script.run.withSuccessHandler(function getKey(key){props.FirstKey \u003d key;}).getFirstKey();\n\n}\n\n\n\nfunction updateExistingRecord(){\n  \n   google.script.run.updateExistingRecord();\n  \n}\n\n\n////////\n\nfunction addRecordsFromSheetValues(){\n  google.script.run.addRecordsFromSheetValues();\n}\n\nfunction deleteRecords(){\n  \n  \n  var myDatasrc \u003d app.datasources.Cases;\n  myDatasrc.load();\n  var allCases \u003d app.datasources.Cases.items;\n  \n  \n  for (var i \u003d 0; i \u003c 300; i++){\n  \n   allCases[i]._delete();\n    \n    \n  }\n    \n   \n}\n\n\n\n\n\n\n\n",
+  "key": "yENgepHJ7CPD99slBE0eWGgLfpw95yQs",
+  "name": "RecordsClientScript",
+  "type": "CLIENT"
+}

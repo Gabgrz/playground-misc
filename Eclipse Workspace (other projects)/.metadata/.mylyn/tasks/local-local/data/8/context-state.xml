@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CityMarker.java" partName="CityMarker.java" title="CityMarker.java" tooltip="UCSDUnfoldingMaps/src/module6/CityMarker.java">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/UCSDUnfoldingMaps/src/module6/CityMarker.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CommonMarker.java" partName="CommonMarker.java" title="CommonMarker.java" tooltip="UCSDUnfoldingMaps/src/module6/CommonMarker.java">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/UCSDUnfoldingMaps/src/module6/CommonMarker.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="17" selectionOffset="367" selectionTopPixel="181"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EarthquakeCityMap.java" partName="EarthquakeCityMap.java" title="EarthquakeCityMap.java" tooltip="UCSDUnfoldingMaps/src/module6/EarthquakeCityMap.java">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/UCSDUnfoldingMaps/src/module6/EarthquakeCityMap.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4663" selectionTopPixel="1946"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EarthquakeMarker.java" partName="EarthquakeMarker.java" title="EarthquakeMarker.java" tooltip="UCSDUnfoldingMaps/src/module6/EarthquakeMarker.java">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/UCSDUnfoldingMaps/src/module6/EarthquakeMarker.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3319" selectionTopPixel="1538"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LandQuakeMarker.java" partName="LandQuakeMarker.java" title="LandQuakeMarker.java" tooltip="UCSDUnfoldingMaps/src/module6/LandQuakeMarker.java">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/UCSDUnfoldingMaps/src/module6/LandQuakeMarker.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="505" selectionTopPixel="111"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OceanQuakeMarker.java" partName="OceanQuakeMarker.java" title="OceanQuakeMarker.java" tooltip="UCSDUnfoldingMaps/src/module6/OceanQuakeMarker.java">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/UCSDUnfoldingMaps/src/module6/OceanQuakeMarker.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="ComparableTimSort.class" partName="ComparableTimSort.class" title="ComparableTimSort.class" tooltip="java.util.ComparableTimSort">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=UCSD Week 3/C:\/Program Files\/Java\/jdk1.8.0_131\/jre\/lib\/rt.jar&lt;java.util(ComparableTimSort.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="46" selectionOffset="17574" selectionTopPixel="9000"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="EventDispatchThread.class" partName="EventDispatchThread.class" title="EventDispatchThread.class" tooltip="java.awt.EventDispatchThread">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=UCSD Week 3/C:\/Program Files\/Java\/jdk1.8.0_131\/jre\/lib\/rt.jar&lt;java.awt(EventDispatchThread.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="36" selectionOffset="6203" selectionTopPixel="3420"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="EventQueue.class" partName="EventQueue.class" title="EventQueue.class" tooltip="java.awt.EventQueue">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=UCSD Week 3/C:\/Program Files\/Java\/jdk1.8.0_131\/jre\/lib\/rt.jar&lt;java.awt(EventQueue.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="76" selectionOffset="23625" selectionTopPixel="13460"/>
+</editor>
+<editor id="org.eclipse.mylyn.tasks.ui.editors.task" name="New Task" partName="New Task" title="New Task" tooltip="New Task">
+<input factoryID="org.eclipse.mylyn.tasks.ui.elementFactories.task.editor" taskHandle="local-8"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="AccessController.class" partName="AccessController.class" title="AccessController.class" tooltip="java.security.AccessController">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=UCSD Week 3/C:\/Program Files\/Java\/jdk1.8.0_131\/jre\/lib\/rt.jar&lt;java.security(AccessController.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Collections.class" partName="Collections.class" title="Collections.class" tooltip="java.util.Collections">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=UCSD Week 3/C:\/Program Files\/Java\/jdk1.8.0_131\/jre\/lib\/rt.jar&lt;java.util(Collections.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="24" selectionOffset="5646" selectionTopPixel="2220"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>

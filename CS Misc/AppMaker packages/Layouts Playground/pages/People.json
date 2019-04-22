@@ -1,0 +1,1140 @@
+{
+  "class": "Panel",
+  "key": "WUQtOvH9awk8YYBHh53vGblXXPBWZqYh",
+  "permission": {
+    "name": "canRead",
+    "permissions": [
+      {"type": "everyone"},
+      {
+        "groupKeys": ["Admins"],
+        "type": "groups"
+      }
+    ],
+    "type": "compound"
+  },
+  "propList": [
+    {
+      "k": "styleMap",
+      "v": {
+        "name": "styleMap",
+        "properties": [],
+        "type": "PropertyMap[styleMap]"
+      }
+    },
+    {
+      "k": "name",
+      "v": "People"
+    },
+    {
+      "k": "styles",
+      "v": {
+        "list": [],
+        "type": "List[String]"
+      }
+    },
+    {
+      "k": "constrain_left",
+      "v": true
+    },
+    {
+      "k": "left",
+      "v": 25
+    },
+    {
+      "k": "constrain_right",
+      "v": false
+    },
+    {
+      "k": "right",
+      "v": 0
+    },
+    {
+      "k": "constrain_width",
+      "v": true
+    },
+    {
+      "k": "width",
+      "v": 960
+    },
+    {
+      "k": "constrain_minWidth",
+      "v": false
+    },
+    {
+      "k": "minWidth",
+      "v": 0
+    },
+    {
+      "k": "constrain_maxWidth",
+      "v": false
+    },
+    {
+      "k": "maxWidth",
+      "v": 0
+    },
+    {
+      "k": "constrain_top",
+      "v": true
+    },
+    {
+      "k": "top",
+      "v": 5
+    },
+    {
+      "k": "constrain_bottom",
+      "v": false
+    },
+    {
+      "k": "bottom",
+      "v": 0
+    },
+    {
+      "k": "constrain_height",
+      "v": true
+    },
+    {
+      "k": "height",
+      "v": 960
+    },
+    {
+      "k": "constrain_minHeight",
+      "v": false
+    },
+    {
+      "k": "minHeight",
+      "v": 0
+    },
+    {
+      "k": "constrain_maxHeight",
+      "v": false
+    },
+    {
+      "k": "maxHeight",
+      "v": 0
+    },
+    {
+      "k": "autoHeight",
+      "v": false
+    },
+    {
+      "k": "autoWidth",
+      "v": false
+    },
+    {
+      "k": "align",
+      "v": "inherited"
+    },
+    {
+      "k": "grow",
+      "v": 0
+    },
+    {
+      "k": "validationDisplay",
+      "v": false
+    },
+    {
+      "k": "variant",
+      "v": "Background"
+    },
+    {
+      "k": "createChildrenOnInit",
+      "v": "ON_INIT"
+    },
+    {
+      "k": "layout",
+      "v": "fixed"
+    },
+    {
+      "k": "wrap",
+      "v": "nowrap"
+    },
+    {
+      "k": "justify",
+      "v": "start"
+    },
+    {
+      "k": "alignChildren",
+      "v": "baseline"
+    },
+    {
+      "k": "wrapAlign",
+      "v": "stretch"
+    },
+    {
+      "k": "title",
+      "v": ""
+    },
+    {
+      "k": "visible",
+      "v": true
+    },
+    {
+      "k": "children",
+      "v": {
+        "list": [{
+          "class": "Panel",
+          "key": "0_1335274682",
+          "propList": [
+            {
+              "k": "styleMap",
+              "v": {
+                "name": "styleMap",
+                "properties": [],
+                "type": "PropertyMap[styleMap]"
+              }
+            },
+            {
+              "k": "width",
+              "v": 780
+            },
+            {
+              "k": "height",
+              "v": 503
+            },
+            {
+              "k": "layout",
+              "v": "horizontal"
+            },
+            {
+              "k": "name",
+              "v": "Container"
+            },
+            {
+              "k": "left",
+              "v": 10
+            },
+            {
+              "k": "top",
+              "v": 16
+            },
+            {
+              "k": "right",
+              "v": 170
+            },
+            {
+              "k": "bottom",
+              "v": 441
+            },
+            {
+              "k": "alignChildren",
+              "v": "start"
+            },
+            {
+              "k": "wrapAlign",
+              "v": "start"
+            },
+            {
+              "k": "constrain_right",
+              "v": false
+            },
+            {
+              "k": "constrain_left",
+              "v": true
+            },
+            {
+              "k": "constrain_bottom",
+              "v": false
+            },
+            {
+              "k": "constrain_top",
+              "v": true
+            },
+            {
+              "k": "variant",
+              "v": "Background"
+            },
+            {
+              "k": "children",
+              "v": {
+                "list": [
+                  {
+                    "class": "Panel",
+                    "key": "0_1576198733",
+                    "propList": [
+                      {
+                        "k": "styleMap",
+                        "v": {
+                          "name": "styleMap",
+                          "properties": [],
+                          "type": "PropertyMap[styleMap]"
+                        }
+                      },
+                      {
+                        "k": "width",
+                        "v": 316
+                      },
+                      {
+                        "k": "height",
+                        "v": 200
+                      },
+                      {
+                        "k": "layout",
+                        "v": "vertical"
+                      },
+                      {
+                        "k": "name",
+                        "v": "Panel1"
+                      },
+                      {
+                        "k": "left",
+                        "v": 0
+                      },
+                      {
+                        "k": "top",
+                        "v": 0
+                      },
+                      {
+                        "k": "autoWidth",
+                        "v": true
+                      },
+                      {
+                        "k": "autoHeight",
+                        "v": true
+                      },
+                      {
+                        "k": "align",
+                        "v": "stretch"
+                      },
+                      {
+                        "k": "children",
+                        "v": {
+                          "list": [
+                            {
+                              "class": "Panel",
+                              "key": "0_437209709",
+                              "propList": [
+                                {
+                                  "k": "styleMap",
+                                  "v": {
+                                    "name": "styleMap",
+                                    "properties": [
+                                      {
+                                        "name": "margin-top",
+                                        "value": {
+                                          "isNull": true,
+                                          "type": "String"
+                                        }
+                                      },
+                                      {
+                                        "name": "padding-top",
+                                        "value": "10px"
+                                      },
+                                      {
+                                        "name": "padding-bottom",
+                                        "value": "10px"
+                                      }
+                                    ],
+                                    "type": "PropertyMap[styleMap]"
+                                  }
+                                },
+                                {
+                                  "k": "width",
+                                  "v": 400
+                                },
+                                {
+                                  "k": "height",
+                                  "v": 200
+                                },
+                                {
+                                  "k": "layout",
+                                  "v": "vertical"
+                                },
+                                {
+                                  "k": "name",
+                                  "v": "Panel4"
+                                },
+                                {
+                                  "k": "left",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "top",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "autoWidth",
+                                  "v": true
+                                },
+                                {
+                                  "k": "align",
+                                  "v": "stretch"
+                                },
+                                {
+                                  "k": "autoHeight",
+                                  "v": true
+                                },
+                                {
+                                  "k": "children",
+                                  "v": {
+                                    "list": [{
+                                      "class": "ImageComponent",
+                                      "key": "0_1226969213",
+                                      "propList": [
+                                        {
+                                          "k": "styleMap",
+                                          "v": {
+                                            "name": "styleMap",
+                                            "properties": [],
+                                            "type": "PropertyMap[styleMap]"
+                                          }
+                                        },
+                                        {
+                                          "k": "width",
+                                          "v": 133
+                                        },
+                                        {
+                                          "k": "height",
+                                          "v": 125
+                                        },
+                                        {
+                                          "k": "name",
+                                          "v": "Image1"
+                                        },
+                                        {
+                                          "k": "left",
+                                          "v": 0
+                                        },
+                                        {
+                                          "k": "top",
+                                          "v": 0
+                                        },
+                                        {
+                                          "k": "right",
+                                          "v": 74
+                                        },
+                                        {
+                                          "k": "bottom",
+                                          "v": 0
+                                        },
+                                        {
+                                          "k": "url",
+                                          "v": "https://st.depositphotos.com/1607888/4404/v/950/depositphotos_44043409-stock-illustration-cool-geek-logo-template.jpg"
+                                        }
+                                      ],
+                                      "type": "ComponentInfo"
+                                    }],
+                                    "type": "List[ComponentInfo]"
+                                  }
+                                },
+                                {
+                                  "k": "justify",
+                                  "v": "center"
+                                },
+                                {
+                                  "k": "alignChildren",
+                                  "v": "center"
+                                },
+                                {
+                                  "k": "variant",
+                                  "v": "Regular"
+                                }
+                              ],
+                              "type": "ComponentInfo"
+                            },
+                            {
+                              "class": "Panel",
+                              "key": "0_1631349741",
+                              "propList": [
+                                {
+                                  "k": "styleMap",
+                                  "v": {
+                                    "name": "styleMap",
+                                    "properties": [
+                                      {
+                                        "name": "padding-top",
+                                        "value": "30px"
+                                      },
+                                      {
+                                        "name": "margin-right",
+                                        "value": "0px"
+                                      },
+                                      {
+                                        "name": "padding-right",
+                                        "value": "30px"
+                                      },
+                                      {
+                                        "name": "padding-left",
+                                        "value": "30px"
+                                      },
+                                      {
+                                        "name": "padding-bottom",
+                                        "value": "30px"
+                                      }
+                                    ],
+                                    "type": "PropertyMap[styleMap]"
+                                  }
+                                },
+                                {
+                                  "k": "width",
+                                  "v": 400
+                                },
+                                {
+                                  "k": "height",
+                                  "v": 200
+                                },
+                                {
+                                  "k": "layout",
+                                  "v": "vertical"
+                                },
+                                {
+                                  "k": "name",
+                                  "v": "Panel3"
+                                },
+                                {
+                                  "k": "left",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "top",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "autoWidth",
+                                  "v": true
+                                },
+                                {
+                                  "k": "align",
+                                  "v": "stretch"
+                                },
+                                {
+                                  "k": "autoHeight",
+                                  "v": true
+                                },
+                                {
+                                  "k": "children",
+                                  "v": {
+                                    "list": [
+                                      {
+                                        "class": "TextField",
+                                        "key": "0_1100874513",
+                                        "propList": [
+                                          {
+                                            "k": "styleMap",
+                                            "v": {
+                                              "name": "styleMap",
+                                              "properties": [],
+                                              "type": "PropertyMap[styleMap]"
+                                            }
+                                          },
+                                          {
+                                            "k": "width",
+                                            "v": 100
+                                          },
+                                          {
+                                            "k": "height",
+                                            "v": 32
+                                          },
+                                          {
+                                            "k": "name",
+                                            "v": "TextBox2"
+                                          },
+                                          {
+                                            "k": "left",
+                                            "v": 221
+                                          },
+                                          {
+                                            "k": "top",
+                                            "v": 1
+                                          },
+                                          {
+                                            "k": "autoHeight",
+                                            "v": true
+                                          },
+                                          {
+                                            "k": "autoWidth",
+                                            "v": true
+                                          },
+                                          {
+                                            "k": "align",
+                                            "v": "stretch"
+                                          },
+                                          {
+                                            "k": "editorHidden",
+                                            "v": false
+                                          },
+                                          {
+                                            "k": "value",
+                                            "v": "Text Box 1"
+                                          },
+                                          {
+                                            "k": "label",
+                                            "v": "Label test"
+                                          }
+                                        ],
+                                        "type": "ComponentInfo"
+                                      },
+                                      {
+                                        "class": "TextField",
+                                        "key": "0_199390197",
+                                        "propList": [
+                                          {
+                                            "k": "styleMap",
+                                            "v": {
+                                              "name": "styleMap",
+                                              "properties": [],
+                                              "type": "PropertyMap[styleMap]"
+                                            }
+                                          },
+                                          {
+                                            "k": "width",
+                                            "v": 100
+                                          },
+                                          {
+                                            "k": "height",
+                                            "v": 32
+                                          },
+                                          {
+                                            "k": "name",
+                                            "v": "TextBox3"
+                                          },
+                                          {
+                                            "k": "left",
+                                            "v": 0
+                                          },
+                                          {
+                                            "k": "top",
+                                            "v": 0
+                                          },
+                                          {
+                                            "k": "autoHeight",
+                                            "v": true
+                                          },
+                                          {
+                                            "k": "autoWidth",
+                                            "v": true
+                                          },
+                                          {
+                                            "k": "align",
+                                            "v": "stretch"
+                                          }
+                                        ],
+                                        "type": "ComponentInfo"
+                                      },
+                                      {
+                                        "class": "TextField",
+                                        "key": "0_445690301",
+                                        "propList": [
+                                          {
+                                            "k": "styleMap",
+                                            "v": {
+                                              "name": "styleMap",
+                                              "properties": [],
+                                              "type": "PropertyMap[styleMap]"
+                                            }
+                                          },
+                                          {
+                                            "k": "width",
+                                            "v": 100
+                                          },
+                                          {
+                                            "k": "height",
+                                            "v": 32
+                                          },
+                                          {
+                                            "k": "name",
+                                            "v": "TextBox4"
+                                          },
+                                          {
+                                            "k": "left",
+                                            "v": 184
+                                          },
+                                          {
+                                            "k": "top",
+                                            "v": 1
+                                          },
+                                          {
+                                            "k": "autoHeight",
+                                            "v": true
+                                          },
+                                          {
+                                            "k": "autoWidth",
+                                            "v": true
+                                          },
+                                          {
+                                            "k": "align",
+                                            "v": "stretch"
+                                          },
+                                          {
+                                            "k": "editorHidden",
+                                            "v": false
+                                          }
+                                        ],
+                                        "type": "ComponentInfo"
+                                      }
+                                    ],
+                                    "type": "List[ComponentInfo]"
+                                  }
+                                },
+                                {
+                                  "k": "grow",
+                                  "v": 0
+                                }
+                              ],
+                              "type": "ComponentInfo"
+                            },
+                            {
+                              "class": "Panel",
+                              "key": "0_886818288",
+                              "propList": [
+                                {
+                                  "k": "styleMap",
+                                  "v": {
+                                    "name": "styleMap",
+                                    "properties": [],
+                                    "type": "PropertyMap[styleMap]"
+                                  }
+                                },
+                                {
+                                  "k": "width",
+                                  "v": 400
+                                },
+                                {
+                                  "k": "height",
+                                  "v": 200
+                                },
+                                {
+                                  "k": "layout",
+                                  "v": "horizontal"
+                                },
+                                {
+                                  "k": "name",
+                                  "v": "Panel5"
+                                },
+                                {
+                                  "k": "left",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "top",
+                                  "v": 223
+                                },
+                                {
+                                  "k": "autoWidth",
+                                  "v": true
+                                },
+                                {
+                                  "k": "align",
+                                  "v": "stretch"
+                                },
+                                {
+                                  "k": "autoHeight",
+                                  "v": true
+                                },
+                                {
+                                  "k": "children",
+                                  "v": {
+                                    "list": [{
+                                      "class": "Panel",
+                                      "key": "0_1142839210",
+                                      "propList": [
+                                        {
+                                          "k": "styleMap",
+                                          "v": {
+                                            "name": "styleMap",
+                                            "properties": [
+                                              {
+                                                "name": "margin-left",
+                                                "value": {
+                                                  "isNull": true,
+                                                  "type": "String"
+                                                }
+                                              },
+                                              {
+                                                "name": "margin-right",
+                                                "value": "15px"
+                                              }
+                                            ],
+                                            "type": "PropertyMap[styleMap]"
+                                          }
+                                        },
+                                        {
+                                          "k": "width",
+                                          "v": 125
+                                        },
+                                        {
+                                          "k": "height",
+                                          "v": 400
+                                        },
+                                        {
+                                          "k": "layout",
+                                          "v": "vertical"
+                                        },
+                                        {
+                                          "k": "name",
+                                          "v": "Panel6"
+                                        },
+                                        {
+                                          "k": "left",
+                                          "v": 0
+                                        },
+                                        {
+                                          "k": "top",
+                                          "v": 0
+                                        },
+                                        {
+                                          "k": "autoWidth",
+                                          "v": false
+                                        },
+                                        {
+                                          "k": "autoHeight",
+                                          "v": true
+                                        },
+                                        {
+                                          "k": "align",
+                                          "v": "stretch"
+                                        },
+                                        {
+                                          "k": "grow",
+                                          "v": 0
+                                        },
+                                        {
+                                          "k": "right",
+                                          "v": 88
+                                        },
+                                        {
+                                          "k": "bottom",
+                                          "v": -225
+                                        },
+                                        {
+                                          "k": "children",
+                                          "v": {
+                                            "list": [{
+                                              "class": "Panel",
+                                              "key": "0_729685461",
+                                              "propList": [
+                                                {
+                                                  "k": "styleMap",
+                                                  "v": {
+                                                    "name": "styleMap",
+                                                    "properties": [
+                                                      {
+                                                        "name": "margin-left",
+                                                        "value": "10px"
+                                                      },
+                                                      {
+                                                        "name": "margin-right",
+                                                        "value": "10px"
+                                                      }
+                                                    ],
+                                                    "type": "PropertyMap[styleMap]"
+                                                  }
+                                                },
+                                                {
+                                                  "k": "width",
+                                                  "v": 200
+                                                },
+                                                {
+                                                  "k": "height",
+                                                  "v": 400
+                                                },
+                                                {
+                                                  "k": "layout",
+                                                  "v": "vertical"
+                                                },
+                                                {
+                                                  "k": "name",
+                                                  "v": "Panel7"
+                                                },
+                                                {
+                                                  "k": "left",
+                                                  "v": 0
+                                                },
+                                                {
+                                                  "k": "top",
+                                                  "v": 0
+                                                },
+                                                {
+                                                  "k": "autoWidth",
+                                                  "v": true
+                                                },
+                                                {
+                                                  "k": "align",
+                                                  "v": "stretch"
+                                                },
+                                                {
+                                                  "k": "autoHeight",
+                                                  "v": true
+                                                },
+                                                {
+                                                  "k": "grow",
+                                                  "v": 0
+                                                },
+                                                {
+                                                  "k": "children",
+                                                  "v": {
+                                                    "list": [
+                                                      {
+                                                        "class": "TextField",
+                                                        "key": "0_797889719",
+                                                        "propList": [
+                                                          {
+                                                            "k": "styleMap",
+                                                            "v": {
+                                                              "name": "styleMap",
+                                                              "properties": [],
+                                                              "type": "PropertyMap[styleMap]"
+                                                            }
+                                                          },
+                                                          {
+                                                            "k": "width",
+                                                            "v": 100
+                                                          },
+                                                          {
+                                                            "k": "height",
+                                                            "v": 32
+                                                          },
+                                                          {
+                                                            "k": "name",
+                                                            "v": "TextBox1"
+                                                          },
+                                                          {
+                                                            "k": "left",
+                                                            "v": 0
+                                                          },
+                                                          {
+                                                            "k": "top",
+                                                            "v": 0
+                                                          },
+                                                          {
+                                                            "k": "autoHeight",
+                                                            "v": true
+                                                          },
+                                                          {
+                                                            "k": "autoWidth",
+                                                            "v": true
+                                                          },
+                                                          {
+                                                            "k": "align",
+                                                            "v": "stretch"
+                                                          }
+                                                        ],
+                                                        "type": "ComponentInfo"
+                                                      },
+                                                      {
+                                                        "class": "TextField",
+                                                        "key": "0_654219219",
+                                                        "propList": [
+                                                          {
+                                                            "k": "styleMap",
+                                                            "v": {
+                                                              "name": "styleMap",
+                                                              "properties": [],
+                                                              "type": "PropertyMap[styleMap]"
+                                                            }
+                                                          },
+                                                          {
+                                                            "k": "width",
+                                                            "v": 100
+                                                          },
+                                                          {
+                                                            "k": "height",
+                                                            "v": 32
+                                                          },
+                                                          {
+                                                            "k": "name",
+                                                            "v": "TextBox6"
+                                                          },
+                                                          {
+                                                            "k": "left",
+                                                            "v": 0
+                                                          },
+                                                          {
+                                                            "k": "top",
+                                                            "v": 0
+                                                          },
+                                                          {
+                                                            "k": "autoHeight",
+                                                            "v": true
+                                                          },
+                                                          {
+                                                            "k": "autoWidth",
+                                                            "v": true
+                                                          },
+                                                          {
+                                                            "k": "align",
+                                                            "v": "stretch"
+                                                          }
+                                                        ],
+                                                        "type": "ComponentInfo"
+                                                      },
+                                                      {
+                                                        "class": "TextField",
+                                                        "key": "0_1377302643",
+                                                        "propList": [
+                                                          {
+                                                            "k": "styleMap",
+                                                            "v": {
+                                                              "name": "styleMap",
+                                                              "properties": [],
+                                                              "type": "PropertyMap[styleMap]"
+                                                            }
+                                                          },
+                                                          {
+                                                            "k": "width",
+                                                            "v": 100
+                                                          },
+                                                          {
+                                                            "k": "height",
+                                                            "v": 32
+                                                          },
+                                                          {
+                                                            "k": "name",
+                                                            "v": "TextBox5"
+                                                          },
+                                                          {
+                                                            "k": "left",
+                                                            "v": 0
+                                                          },
+                                                          {
+                                                            "k": "top",
+                                                            "v": 0
+                                                          },
+                                                          {
+                                                            "k": "autoHeight",
+                                                            "v": true
+                                                          },
+                                                          {
+                                                            "k": "autoWidth",
+                                                            "v": true
+                                                          },
+                                                          {
+                                                            "k": "align",
+                                                            "v": "stretch"
+                                                          }
+                                                        ],
+                                                        "type": "ComponentInfo"
+                                                      }
+                                                    ],
+                                                    "type": "List[ComponentInfo]"
+                                                  }
+                                                }
+                                              ],
+                                              "type": "ComponentInfo"
+                                            }],
+                                            "type": "List[ComponentInfo]"
+                                          }
+                                        },
+                                        {
+                                          "k": "alignChildren",
+                                          "v": "center"
+                                        },
+                                        {
+                                          "k": "justify",
+                                          "v": "center"
+                                        }
+                                      ],
+                                      "type": "ComponentInfo"
+                                    }],
+                                    "type": "List[ComponentInfo]"
+                                  }
+                                },
+                                {
+                                  "k": "grow",
+                                  "v": 1
+                                }
+                              ],
+                              "type": "ComponentInfo"
+                            }
+                          ],
+                          "type": "List[ComponentInfo]"
+                        }
+                      },
+                      {
+                        "k": "editorHidden",
+                        "v": false
+                      },
+                      {
+                        "k": "grow",
+                        "v": 0
+                      },
+                      {
+                        "k": "right",
+                        "v": 416
+                      },
+                      {
+                        "k": "bottom",
+                        "v": 53
+                      },
+                      {
+                        "k": "variant",
+                        "v": "Regular"
+                      }
+                    ],
+                    "type": "ComponentInfo"
+                  },
+                  {
+                    "class": "Panel",
+                    "key": "0_794300615",
+                    "propList": [
+                      {
+                        "k": "styleMap",
+                        "v": {
+                          "name": "styleMap",
+                          "properties": [],
+                          "type": "PropertyMap[styleMap]"
+                        }
+                      },
+                      {
+                        "k": "width",
+                        "v": 200
+                      },
+                      {
+                        "k": "height",
+                        "v": 400
+                      },
+                      {
+                        "k": "layout",
+                        "v": "vertical"
+                      },
+                      {
+                        "k": "name",
+                        "v": "Panel2"
+                      },
+                      {
+                        "k": "left",
+                        "v": 0
+                      },
+                      {
+                        "k": "top",
+                        "v": 0
+                      },
+                      {
+                        "k": "right",
+                        "v": 0
+                      },
+                      {
+                        "k": "bottom",
+                        "v": 0
+                      },
+                      {
+                        "k": "autoWidth",
+                        "v": true
+                      },
+                      {
+                        "k": "autoHeight",
+                        "v": true
+                      },
+                      {
+                        "k": "align",
+                        "v": "stretch"
+                      },
+                      {
+                        "k": "grow",
+                        "v": 1
+                      }
+                    ],
+                    "type": "ComponentInfo"
+                  }
+                ],
+                "type": "List[ComponentInfo]"
+              }
+            }
+          ],
+          "type": "ComponentInfo"
+        }],
+        "type": "List[ComponentInfo]"
+      }
+    }
+  ],
+  "type": "ComponentInfo"
+}

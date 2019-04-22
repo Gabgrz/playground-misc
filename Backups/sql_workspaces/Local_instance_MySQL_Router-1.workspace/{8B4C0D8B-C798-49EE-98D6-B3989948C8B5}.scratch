@@ -1,0 +1,1 @@
+tareasSELECT * FROM java_mysql.tarea_descripcion;

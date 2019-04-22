@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Book
+comment1.params=fileName
+comment1.target=Book(java.lang.String)
+comment2.params=
+comment2.target=int\ getNumCharacters()
+comment2.text=\r\n\ Calculates\ the\ number\ of\ characters\ (as\ in\ letters\ and\r\n\ symbols,\ not\ people)\ in\ the\ book.\r\n\ @return\ the\ number\ of\ letters\ and\ symbols\ in\ the\ book.\r\n
+comment3.params=fileName
+comment3.target=void\ readBook(java.lang.String)
+comment3.text=\r\n\ A\ method\ to\ help\ read\ the\ book\ out\ of\ the\ file.\r\n\ You\ don't\ have\ to\ read\ this\ unless\ you\ want\ to.\r\n\ the\ "try"\ and\ "catch"\ are\ java's\ way\ of\ dealing\ with\r\n\ runtime\ errors\ or\ "exceptions".\r\n
+numComments=4

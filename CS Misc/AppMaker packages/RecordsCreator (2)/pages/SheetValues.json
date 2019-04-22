@@ -1,0 +1,582 @@
+{
+  "class": "Panel",
+  "customPropertyDescriptions": [
+    {
+      "category": "Custom Properties",
+      "deprecated": false,
+      "designTime": false,
+      "experimental": false,
+      "hidden": false,
+      "key": "EyghosZo",
+      "name": "SheetValues",
+      "persisted": true,
+      "readonly": false,
+      "type": "String"
+    },
+    {
+      "category": "Custom Properties",
+      "deprecated": false,
+      "designTime": false,
+      "experimental": false,
+      "hidden": false,
+      "key": "BSWB2q19",
+      "name": "FirstValue",
+      "persisted": true,
+      "readonly": false,
+      "type": "String"
+    },
+    {
+      "category": "Custom Properties",
+      "deprecated": false,
+      "designTime": false,
+      "experimental": false,
+      "hidden": false,
+      "key": "Bj2OyULq",
+      "name": "FirstKey",
+      "persisted": true,
+      "readonly": false,
+      "type": "String"
+    }
+  ],
+  "customPropertyValues": {
+    "name": "CustomProperties",
+    "properties": [
+      {
+        "name": "EyghosZo",
+        "value": {
+          "isNull": true,
+          "type": "String"
+        }
+      },
+      {
+        "name": "BSWB2q19",
+        "value": {
+          "isNull": true,
+          "type": "String"
+        }
+      },
+      {
+        "name": "Bj2OyULq",
+        "value": {
+          "isNull": true,
+          "type": "String"
+        }
+      }
+    ],
+    "type": "PropertyMap[CustomProperties]"
+  },
+  "key": "TeaD0gIW9Uia72YZ3BhNWdN247U53Hxc",
+  "permission": {
+    "name": "canRead",
+    "type": "compoundEveryone"
+  },
+  "propList": [
+    {
+      "k": "styleMap",
+      "v": {
+        "name": "styleMap",
+        "properties": [],
+        "type": "PropertyMap[styleMap]"
+      }
+    },
+    {
+      "k": "width",
+      "v": 960
+    },
+    {
+      "k": "height",
+      "v": 960
+    },
+    {
+      "k": "name",
+      "v": "SheetValues"
+    },
+    {
+      "k": "variant",
+      "v": "Background"
+    },
+    {
+      "k": "top",
+      "v": 4
+    },
+    {
+      "k": "left",
+      "v": 4
+    },
+    {
+      "k": "children",
+      "v": {
+        "list": [
+          {
+            "class": "TextAreaComponent",
+            "key": "0_1884098456",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 400
+              },
+              {
+                "k": "height",
+                "v": 100
+              },
+              {
+                "k": "name",
+                "v": "TextArea1"
+              },
+              {
+                "k": "left",
+                "v": 81
+              },
+              {
+                "k": "top",
+                "v": 68
+              },
+              {
+                "k": "right",
+                "v": 479
+              },
+              {
+                "k": "bottom",
+                "v": 792
+              },
+              {
+                "k": "bindings",
+                "v": {
+                  "list": [{
+                    "sourceExpression": "value",
+                    "targetExpression": "@properties.EyghosZo",
+                    "targetLiteralExpression": "@properties.SheetValues",
+                    "type": "BindingInfo"
+                  }],
+                  "type": "List[BindingInfo]"
+                }
+              }
+            ],
+            "type": "ComponentInfo"
+          },
+          {
+            "class": "SimpleButton",
+            "key": "0_690674613",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 92
+              },
+              {
+                "k": "height",
+                "v": 36
+              },
+              {
+                "k": "name",
+                "v": "Button1"
+              },
+              {
+                "k": "left",
+                "v": 610
+              },
+              {
+                "k": "top",
+                "v": 68
+              },
+              {
+                "k": "autoWidth",
+                "v": true
+              },
+              {
+                "k": "autoHeight",
+                "v": true
+              },
+              {
+                "k": "right",
+                "v": 258
+              },
+              {
+                "k": "bottom",
+                "v": 856
+              },
+              {
+                "k": "action",
+                "v": "getSheetValues();"
+              }
+            ],
+            "type": "ComponentInfo"
+          },
+          {
+            "class": "TextField",
+            "key": "0_500097135",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 251
+              },
+              {
+                "k": "height",
+                "v": 32
+              },
+              {
+                "k": "name",
+                "v": "TextBox1"
+              },
+              {
+                "k": "left",
+                "v": 230
+              },
+              {
+                "k": "top",
+                "v": 242
+              },
+              {
+                "k": "autoHeight",
+                "v": true
+              },
+              {
+                "k": "right",
+                "v": 479
+              },
+              {
+                "k": "bottom",
+                "v": 686
+              },
+              {
+                "k": "bindings",
+                "v": {
+                  "list": [{
+                    "sourceExpression": "value",
+                    "targetExpression": "@properties.BSWB2q19",
+                    "targetLiteralExpression": "@properties.FirstValue",
+                    "type": "BindingInfo"
+                  }],
+                  "type": "List[BindingInfo]"
+                }
+              }
+            ],
+            "type": "ComponentInfo"
+          },
+          {
+            "class": "SimpleButton",
+            "key": "3_1763976879",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 94
+              },
+              {
+                "k": "height",
+                "v": 36
+              },
+              {
+                "k": "name",
+                "v": "Button2"
+              },
+              {
+                "k": "left",
+                "v": 610
+              },
+              {
+                "k": "top",
+                "v": 240
+              },
+              {
+                "k": "autoWidth",
+                "v": true
+              },
+              {
+                "k": "autoHeight",
+                "v": true
+              },
+              {
+                "k": "right",
+                "v": 256
+              },
+              {
+                "k": "bottom",
+                "v": 684
+              },
+              {
+                "k": "action",
+                "v": "getFirstValue();"
+              },
+              {
+                "k": "constrain_left",
+                "v": true
+              },
+              {
+                "k": "constrain_right",
+                "v": false
+              },
+              {
+                "k": "constrain_width",
+                "v": true
+              },
+              {
+                "k": "constrain_minWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_maxWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_top",
+                "v": true
+              },
+              {
+                "k": "constrain_bottom",
+                "v": false
+              },
+              {
+                "k": "constrain_height",
+                "v": true
+              },
+              {
+                "k": "constrain_minHeight",
+                "v": false
+              },
+              {
+                "k": "constrain_maxHeight",
+                "v": false
+              },
+              {
+                "k": "text",
+                "v": "Get First Value"
+              }
+            ],
+            "type": "ComponentInfo"
+          },
+          {
+            "class": "SimpleButton",
+            "key": "0_1604751705",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 94
+              },
+              {
+                "k": "height",
+                "v": 36
+              },
+              {
+                "k": "name",
+                "v": "Button3"
+              },
+              {
+                "k": "left",
+                "v": 610
+              },
+              {
+                "k": "top",
+                "v": 367
+              },
+              {
+                "k": "autoWidth",
+                "v": true
+              },
+              {
+                "k": "autoHeight",
+                "v": true
+              },
+              {
+                "k": "right",
+                "v": 256
+              },
+              {
+                "k": "bottom",
+                "v": 557
+              },
+              {
+                "k": "action",
+                "v": "getFirstKey();"
+              },
+              {
+                "k": "constrain_left",
+                "v": true
+              },
+              {
+                "k": "constrain_right",
+                "v": false
+              },
+              {
+                "k": "constrain_width",
+                "v": true
+              },
+              {
+                "k": "constrain_minWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_maxWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_top",
+                "v": true
+              },
+              {
+                "k": "constrain_bottom",
+                "v": false
+              },
+              {
+                "k": "constrain_height",
+                "v": true
+              },
+              {
+                "k": "constrain_minHeight",
+                "v": false
+              },
+              {
+                "k": "constrain_maxHeight",
+                "v": false
+              },
+              {
+                "k": "text",
+                "v": "Get First Key"
+              }
+            ],
+            "type": "ComponentInfo"
+          },
+          {
+            "class": "TextField",
+            "key": "1_1660626569",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 250
+              },
+              {
+                "k": "height",
+                "v": 33
+              },
+              {
+                "k": "name",
+                "v": "TextBox2"
+              },
+              {
+                "k": "left",
+                "v": 230
+              },
+              {
+                "k": "top",
+                "v": 376
+              },
+              {
+                "k": "autoHeight",
+                "v": true
+              },
+              {
+                "k": "right",
+                "v": 480
+              },
+              {
+                "k": "bottom",
+                "v": 551
+              },
+              {
+                "k": "bindings",
+                "v": {
+                  "list": [{
+                    "sourceExpression": "value",
+                    "targetExpression": "@properties.Bj2OyULq",
+                    "targetLiteralExpression": "@properties.FirstKey",
+                    "type": "BindingInfo"
+                  }],
+                  "type": "List[BindingInfo]"
+                }
+              },
+              {
+                "k": "constrain_left",
+                "v": true
+              },
+              {
+                "k": "constrain_right",
+                "v": false
+              },
+              {
+                "k": "constrain_width",
+                "v": true
+              },
+              {
+                "k": "constrain_minWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_maxWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_top",
+                "v": true
+              },
+              {
+                "k": "constrain_bottom",
+                "v": false
+              },
+              {
+                "k": "constrain_height",
+                "v": true
+              },
+              {
+                "k": "constrain_minHeight",
+                "v": false
+              },
+              {
+                "k": "constrain_maxHeight",
+                "v": false
+              }
+            ],
+            "type": "ComponentInfo"
+          }
+        ],
+        "type": "List[ComponentInfo]"
+      }
+    }
+  ],
+  "type": "ComponentInfo"
+}

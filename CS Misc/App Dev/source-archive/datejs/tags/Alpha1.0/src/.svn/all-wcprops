@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/27/tags/Alpha1.0/src
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/27/tags/Alpha1.0/src/license.txt
+END
+core.js
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/27/tags/Alpha1.0/src/core.js
+END
+parser.js
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/27/tags/Alpha1.0/src/parser.js
+END
+core-debug.js
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/27/tags/Alpha1.0/src/core-debug.js
+END
+date.js
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/27/tags/Alpha1.0/src/date.js
+END
+sugarpak.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/27/tags/Alpha1.0/src/sugarpak.js
+END
+time.js
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/27/tags/Alpha1.0/src/time.js
+END
+parser-debug.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/27/tags/Alpha1.0/src/parser-debug.js
+END
+sugarpak-debug.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/27/tags/Alpha1.0/src/sugarpak-debug.js
+END
+time-debug.js
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/27/tags/Alpha1.0/src/time-debug.js
+END

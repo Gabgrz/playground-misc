@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.geo.Location"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.marker.SimplePointMarker"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.data.Feature"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.providers.OpenStreetMap.OpenStreetMapProvider"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.providers.OpenStreetMap"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.providers.Google.GoogleTerrainProvider"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.providers.Google.GoogleMapProvider"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.providers.Microsoft.AerialProvider"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.providers.Microsoft"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.providers.Microsoft.HybridProvider"/>
+<fullyQualifiedTypeName name="module6.EarthquakeMarker"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+</qualifiedTypeNameHistroy>

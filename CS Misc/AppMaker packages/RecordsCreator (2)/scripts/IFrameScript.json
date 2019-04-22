@@ -1,0 +1,6 @@
+{
+  "content": "/**\n * Handles page\u0027s onAttach event.\n */\nfunction onPageAttach() {\n  app.pages.Sheet.properties.Url \u003d \u0027https://docs.google.com/spreadsheets/d/1UMz4wuoneU_7ynfbQs_GLIuGkctK4baIj_QcnX7SvEg/edit?usp\u003dsharing\u0026amp;single\u003dtrue\u0026amp;widget\u003dtrue\u0026amp;headers\u003dfalse\u0027;\n}\n\n\n/**\n * Generates IFrame HTML text to embed a webpage.\n * @param {string} url - URL of webpage to embed.\n * @return {string} HTML text of IFrame.\n */\nfunction getIframeHtml(url) {\n  return \u0027\u003cdiv class\u003d\"wrapper full-size\"\u003e\u003ciframe src\u003d\"\u0027 +\n    app.sanitizer.sanitizeUrl(url || \u0027\u0027) +\n    \u0027\" frameborder\u003d\"0\" class\u003d\"full-size\"\u003e\u003c\/iframe\u003e\u003c\/div\u003e\u0027;\n}\n\n\n/*\n\n\u003ciframe src\u003d\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRxBD7GnWpD6sZ3knKVwVzw9nSrrnhqnO_lkpSKzoh08oYxUsK9_1bJAcxsfW-zdRWsKOphxABYV4RQ/pubhtml?gid\u003d0\u0026amp;single\u003dtrue\u0026amp;widget\u003dtrue\u0026amp;headers\u003dfalse\"\u003e\u003c\/iframe\u003e\n\n\n*/",
+  "key": "MjFmll1oNDYJyRtGSIT9lVVkJCz7rfyQ",
+  "name": "IFrameScript",
+  "type": "CLIENT"
+}
