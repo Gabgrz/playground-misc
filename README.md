@@ -1,6 +1,6 @@
 # Playground Misc
 
-A personal collection of programming projects, learning experiments, and code samples across various technologies.
+A personal collection of programming projects, learning experiments, and code samples across various technologies from 2019 and earlier.
 
 ## Structure
 
